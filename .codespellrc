@@ -1,0 +1,3 @@
+[codespell]
+ignore-words-list = hevy,fatsecret,pres,covert,sme,thn,foundIn,nd,tha,wit,autorize,requestor,followings,unparseable,espace,didi,counterfit,doubleclick,nD,ede,proces,stopp,sting,patter,medias,blocs,bloc,inOut,intial,maintanence,teh,implmentation,preferrably
+skip = MEMORY/WORK/*/*/THREAD.md,MEMORY-ARCHIVE/WORK/*/THREAD.md,skills/PAI/USER/MEMORY-ARCHIVE/WORK/**/THREAD.md,MEMORY/LEARNING/**/THREAD.md,**/Reference/*,**/References/*,*.sensitive.txt,*.sensitive.md,*.lock,*.json,skills/PAI/Components/Algorithm/v*.md

@@ -1,68 +1,69 @@
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.Spotlight-V100
-.Trashes
-Library
+# ─── Personal config (symlinked from marvin at runtime) ─────────
+settings.json
+.claude/
+skills/PAI/USER/
+plans/
 
-# Environment files
+# ─── Secrets (symlinked from ~/.config/pai at runtime) ──────────
+.credentials.json
 .env
 .env.local
 .env.*.local
-*.env
 
-# API keys and secrets
-*.pem
-*.key
-*.cert
-*.p12
-*.pfx
-*_rsa
-*_rsa.pub
-*.crt
-*.cer
+# ─── Memory (all content is symlinks at runtime) ────────────────
+MEMORY/
 
-# Logs
-*.log
-logs/
-Library/Logs/
+# ─── Session and runtime state ──────────────────────────────────
+cache/
+debug/
+file-history/
+history.jsonl
+session-env/
+shell-snapshots/
+todos/
+tasks/
+projects/
+chrome/
+custom-agents/
+.claude.json
+paste-cache/
+stats-cache.json
+telemetry/
 
-# Node/Bun
+# ─── Plugin state ───────────────────────────────────────────────
+plugins/
+
+# ─── Dependencies ───────────────────────────────────────────────
 node_modules/
-.npm
-.yarn
-.pnp.*
+**/node_modules/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# ─── MCP servers (large, installed fresh) ───────────────────────
+mcp-servers/
 
-# Temporary files
-tmp/
-temp/
-*.tmp
+# ─── Observability app (large, installed fresh) ─────────────────
+Observability/
 
-# Build outputs
-dist/
-build/
-out/
+# ─── Sensitive data patterns ────────────────────────────────────
+*.sensitive.txt
 
-# Cache
-.cache/
+# ─── OS files ───────────────────────────────────────────────────
+.DS_Store
+
+# ─── Hook debug logs ────────────────────────────────────────────
+hooks/*.log
+
+# ─── Statsig analytics (Claude Code creates this) ──────────────
+[Ss]tatsig/
+
+# ─── Bun build cache and debris ─────────────────────────────────
+*.bun-build
+/package.json
+/package-lock.json
+/bun.lock
+
+# ─── System state caches ────────────────────────────────────────
 *.cache
+*.log
 
-# Personal/Private data
-private/
-secrets/
-credentials/
-
-# PAI Update System (sideloading)
-.claude/pai_updates/
-.claude/pai_backups/
-.claude/.pai-sync-history
+# ─── Migration backups ──────────────────────────────────────────
+skills/PAI/USER-backup-*/

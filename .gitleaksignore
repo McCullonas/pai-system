@@ -1,0 +1,10 @@
+# Gitleaks false positives — placeholder tokens in documentation examples
+# These are all "YOUR_TOKEN" or "YOUR-TOKEN-HERE" style placeholders, not real secrets
+skills/PAI/ACTIONS/README.md:curl-auth-header:150
+skills/PAI/ACTIONS.md:curl-auth-header:211
+skills/PAI/FLOWS/README.md:curl-auth-header:109
+skills/PAI/PIPELINES/README.md:curl-auth-header:91
+skills/PAI/FLOWS.md:curl-auth-header:170
+skills/PAI/DEPLOYMENT.md:curl-auth-header:335
+skills/PAI/DEPLOYMENT.md:curl-auth-header:557
+skills/PAI/DEPLOYMENT.md:curl-auth-header:774
