@@ -55,16 +55,36 @@ curl -s -H "Authorization: Bearer $TOKEN" \
   http://192.168.3.130:3456/api/v1/tasks/{task_id}/comments
 ```
 
-### 4. Claim the top Ready card
+### 4. Claim the top Ready card (Bea's tasks only)
 
-Find the "Ready" bucket. Pick the first task (highest priority or top position). Get its full details:
+Find your own user ID first — you are the "marvin" user:
+
+```bash
+curl -s -H "Authorization: Bearer $TOKEN" \
+  "http://192.168.3.130:3456/api/v1/users?s=marvin" | python3 -c "import json,sys; users=json.load(sys.stdin); print(users[0]['id'])"
+```
+
+Note your user ID (call it `BEA_USER_ID`).
+
+Find the "Ready" bucket. Iterate through its tasks from top to bottom. For each task, fetch its full details:
 
 ```bash
 curl -s -H "Authorization: Bearer $TOKEN" \
   http://192.168.3.130:3456/api/v1/tasks/{task_id}
 ```
 
-Move to In Progress:
+**Assignment check — mandatory before claiming any card:**
+
+Inspect `task.assignees` (an array of user objects). Apply this rule:
+
+- If `assignees` contains your user ID (`BEA_USER_ID`): this card is assigned to you — claim it.
+- If `assignees` is empty: unassigned card — claim it.
+- If `assignees` contains only other users (not your user ID): this card belongs to Andy or another human. **Skip it.** Move to the next Ready card.
+
+If every Ready card is assigned to someone else and none are unassigned: exit with code 0. There is nothing for you to do right now. flux-loop.sh will run flux-complete.sh and re-check after blockers are resolved.
+
+Once you have selected a card that passes the assignment check, move it to In Progress:
+
 ```bash
 curl -s -X POST \
   -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
@@ -73,6 +93,7 @@ curl -s -X POST \
 ```
 
 Post starting comment:
+
 ```bash
 curl -s -X PUT \
   -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
