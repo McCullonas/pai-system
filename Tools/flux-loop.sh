@@ -91,9 +91,10 @@ You are scoped to the ${PROJECT_NAME} work queue. Query and claim cards only fro
     fi
 
     # Invoke Bea — capture output and exit code reliably
+    # FLUX_SESSION=1 activates FluxBashGuard hook for Bea's session
     bea_exit=0
     tmp_bea=$(mktemp)
-    claude -p "$PROMPT" \
+    FLUX_SESSION=1 claude -p "$PROMPT" \
         --allowedTools "Bash,Read,Write,Edit,Glob,Grep,WebFetch" \
         >"$tmp_bea" 2>&1 || bea_exit=$?
     cat "$tmp_bea" | tee -a "$LOG_FILE"
