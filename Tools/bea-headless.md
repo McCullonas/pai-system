@@ -116,6 +116,11 @@ Find the section for this card's story ID. Read the acceptance criteria and NFR 
 
 Work the card fully according to its acceptance criteria. Use the PAI Algorithm approach:
 - Branch from main in the relevant repo: `git checkout -b feat/<story-id>-<slug>`
+- Set your git identity in the repo before committing:
+  ```bash
+  git config user.name "Bea"
+  git config user.email "bea@marvin.local"
+  ```
 - Implement the changes
 - Write tests if applicable
 - Commit with conventional commit format
@@ -141,7 +146,7 @@ When engineering work is complete:
 
 1. Push branch and create PR:
    ```bash
-   git push -u origin <branch>
+   git push -u bea <branch>
    gh pr create --title "..." --body "..." --reviewer andy-mcculloch
    ```
 
