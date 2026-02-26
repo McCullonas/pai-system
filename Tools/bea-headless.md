@@ -119,7 +119,7 @@ Work the card fully according to its acceptance criteria. Use the PAI Algorithm 
 - Set your git identity in the repo before committing:
   ```bash
   git config user.name "Bea"
-  git config user.email "bea@marvin.local"
+  git config user.email "marvin.mccullonas+bea@gmail.com"
   ```
 - Implement the changes
 - Write tests if applicable
