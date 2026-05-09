@@ -1,0 +1,11 @@
+# Gitleaks ignore list — false positives from upstream PAI code.
+#
+# These fingerprints are from upstream (danielmiessler/PAI) example
+# documentation paths that the personal-macos-path / personal-linux-path
+# rules catch but which are not actual secrets.
+
+Packs/Daemon/src/Tools/SecurityFilter.ts:personal-macos-path:301
+Releases/v5.0.0/.claude/PAI/TOOLS/SessionHarvester.ts:personal-macos-path:33
+Releases/v5.0.0/.claude/PAI/TOOLS/SessionHarvester.ts:personal-linux-path:34
+Releases/v5.0.0/.claude/hooks/ContainmentGuard.hook.ts:personal-macos-path:20
+Releases/v5.0.0/.claude/skills/Daemon/Tools/SecurityFilter.ts:personal-macos-path:301
