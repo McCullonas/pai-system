@@ -1,0 +1,28 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "FairFolk home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: FAIRFOLK
+      - link "Sign in" [ref=e5] [cursor=pointer]:
+        - /url: /login
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - img [ref=e11]
+          - heading "Craft Fair" [level=1] [ref=e18]
+          - generic [ref=e19]: Community submitted
+        - button "Save to My Fairs" [ref=e20]:
+          - img [ref=e21]
+      - paragraph [ref=e23]: Saturday, 30 May 2026
+      - paragraph [ref=e24]: Eastham, Wirral, England
+    - generic [ref=e25]:
+      - heading "Trader satisfaction" [level=2] [ref=e26]
+      - paragraph [ref=e27]: Not enough ratings yet to show a satisfaction score.
+    - paragraph [ref=e28]: Community craft fair held at a local church hall on the Wirral. Doors open at midday.
+    - group [ref=e29]:
+      - generic "Organiser contact & privacy" [ref=e30] [cursor=pointer]
+    - link "Contact FairFolk about this listing" [ref=e32] [cursor=pointer]:
+      - /url: mailto:listings@fairfolk.co.uk
+  - alert [ref=e33]

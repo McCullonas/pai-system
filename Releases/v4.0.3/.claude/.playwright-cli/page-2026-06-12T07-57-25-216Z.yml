@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications (1 unread)" [ref=e85]:
+          - img [ref=e20]
+          - generic [ref=e86]: "1"
+        - button "Settings" [ref=e24]
+  - alert [ref=e84]
+  - main [ref=e88]:
+    - generic [ref=e89]:
+      - heading "Your fairs" [level=1] [ref=e90]
+      - link "Create fair" [ref=e91] [cursor=pointer]:
+        - /url: /organiser/fairs/new
+    - list [ref=e92]:
+      - listitem [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - paragraph [ref=e96]: Sweep Application Fair
+            - paragraph [ref=e97]: 15 Dec 2026 · Test Venue, Bath
+          - generic [ref=e98]: draft
+        - generic [ref=e99]:
+          - link "Edit" [ref=e100] [cursor=pointer]:
+            - /url: /organiser/fairs/82dcd1e9-8fe4-41e9-919a-d5d9fef43818/edit
+          - link "Form" [ref=e101] [cursor=pointer]:
+            - /url: /organiser/fairs/82dcd1e9-8fe4-41e9-919a-d5d9fef43818/form
+          - link "Applications" [ref=e102] [cursor=pointer]:
+            - /url: /organiser/fairs/82dcd1e9-8fe4-41e9-919a-d5d9fef43818/applications
+          - link "Invite traders" [ref=e103] [cursor=pointer]:
+            - /url: /organiser/fairs/82dcd1e9-8fe4-41e9-919a-d5d9fef43818/invite
+          - button "Publish" [ref=e104]

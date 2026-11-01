@@ -1,0 +1,61 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (1 unread)" [ref=e64]:
+          - img [ref=e18]
+          - generic [ref=e65]: "1"
+        - button "Switch role" [ref=e23]:
+          - text: trader
+          - img [ref=e24]
+        - button "Settings" [ref=e27]
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - img [ref=e33]
+          - heading "Burton Constable Craft & Gift Market" [level=1] [ref=e40]
+          - generic [ref=e41]: Community submitted
+        - button "Save to My Fairs" [ref=e42]:
+          - img [ref=e43]
+      - paragraph [ref=e45]: Thursday, 15 October 2026
+      - paragraph [ref=e46]: Pinstone Street, Sheffield, S1 2HH
+    - group "Confirm claim" [ref=e66]:
+      - paragraph [ref=e50]: Confirm you manage this fair
+      - list [ref=e67]:
+        - listitem [ref=e68]: Your account email must be verified.
+        - listitem [ref=e69]: If this listing has a contact email on file, it must match your verified account email.
+        - listitem [ref=e70]: Once claimed, you take over management of this listing.
+      - generic [ref=e71]:
+        - button "Confirm claim" [ref=e72]
+        - button "Cancel" [ref=e73]
+    - generic [ref=e53]:
+      - heading "Trader satisfaction" [level=2] [ref=e54]
+      - paragraph [ref=e55]: Not enough ratings yet to show a satisfaction score.
+    - generic [ref=e56]:
+      - heading "Organiser feedback" [level=2] [ref=e57]
+      - paragraph [ref=e58]: Not enough feedback yet to show an organiser score.
+    - group [ref=e59]:
+      - generic "Organiser contact & privacy" [ref=e60] [cursor=pointer]
+    - link "Contact FairFolk about this listing" [ref=e62] [cursor=pointer]:
+      - /url: mailto:listings@fairfolk.co.uk
+  - alert [ref=e63]

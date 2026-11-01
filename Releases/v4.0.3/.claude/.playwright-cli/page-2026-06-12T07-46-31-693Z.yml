@@ -1,0 +1,70 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications" [ref=e17]:
+          - img [ref=e18]
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - heading "Log attendance" [level=1] [ref=e25]
+      - paragraph [ref=e26]: Record revenue and costs for a fair you attended.
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: Fair name*
+        - textbox "Fair name*" [ref=e31]:
+          - /placeholder: e.g. Clifton Village Craft Fair
+      - generic [ref=e32]:
+        - generic [ref=e33]: Date attended*
+        - textbox "Date attended*" [ref=e34]: 2026-06-12
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: Revenue (£)*
+          - spinbutton "Revenue (£)*" [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]: Stall cost (£)*
+          - spinbutton "Stall cost (£)*" [ref=e41]
+      - generic [ref=e42]:
+        - generic [ref=e43]: Footfall (optional)
+        - spinbutton "Footfall (optional)" [ref=e44]
+      - generic [ref=e45]:
+        - generic [ref=e46]: Weather (optional)
+        - textbox "Weather (optional)" [ref=e47]:
+          - /placeholder: e.g. Sunny, light breeze
+      - group "Setup ease (optional)" [ref=e48]:
+        - generic [ref=e49]: Setup ease (optional)
+        - generic [ref=e50]:
+          - button "Setup ease 1 out of 5" [ref=e51]: "1"
+          - button "Setup ease 2 out of 5" [ref=e52]: "2"
+          - button "Setup ease 3 out of 5" [ref=e53]: "3"
+          - button "Setup ease 4 out of 5" [ref=e54]: "4"
+          - button "Setup ease 5 out of 5" [ref=e55]: "5"
+        - paragraph [ref=e56]: 1 = very hard, 5 = very easy
+      - generic [ref=e57]:
+        - generic [ref=e58]: Notes (optional)
+        - textbox "Notes (optional)" [ref=e59]:
+          - /placeholder: Anything worth remembering about this fair
+      - generic [ref=e60]:
+        - button "Save attendance" [ref=e61]
+        - link "Cancel" [ref=e62] [cursor=pointer]:
+          - /url: /performance
+  - alert [ref=e63]

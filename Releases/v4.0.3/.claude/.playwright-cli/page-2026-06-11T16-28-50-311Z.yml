@@ -1,0 +1,60 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications" [ref=e17]:
+          - img [ref=e18]
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - img [ref=e28]
+          - heading "Sweep Application Fair" [level=1] [ref=e35]
+          - 'generic "Verified means: this organiser''s email was verified at sign-up" [ref=e36]': Verified
+        - button "Saved to My Fairs" [disabled] [ref=e37]:
+          - img [ref=e38]
+      - paragraph [ref=e40]: Tuesday, 15 December 2026
+      - paragraph [ref=e41]: Test Venue, Bath
+    - generic [ref=e42]:
+      - heading "Trader satisfaction" [level=2] [ref=e43]
+      - paragraph [ref=e44]: Not enough ratings yet to show a satisfaction score.
+    - generic [ref=e45]:
+      - heading "Organiser feedback" [level=2] [ref=e46]
+      - paragraph [ref=e47]: Not enough feedback yet to show an organiser score.
+    - paragraph [ref=e48]: DoD sweep test fair for F013 application stories
+    - generic [ref=e49]:
+      - paragraph [ref=e50]: You've applied to this fair.
+      - link "View your application →" [ref=e51] [cursor=pointer]:
+        - /url: /my-fairs
+    - generic [ref=e52]:
+      - heading "Contact the organiser" [level=2] [ref=e53]
+      - list [ref=e54]:
+        - listitem [ref=e55]:
+          - text: "Email:"
+          - link "qa-contact@fairfolk.test" [ref=e56] [cursor=pointer]:
+            - /url: mailto:qa-contact@fairfolk.test
+        - listitem [ref=e57]:
+          - text: "Phone:"
+          - link "+44 114 000000" [ref=e58] [cursor=pointer]:
+            - /url: tel:+44 114 000000
+  - alert [ref=e59]

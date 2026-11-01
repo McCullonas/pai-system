@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications" [ref=e19]:
+          - img [ref=e20]
+        - button "Settings" [ref=e24]
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - paragraph [ref=e27]: This week
+      - heading "Organiser dashboard" [level=1] [ref=e28]
+      - paragraph [ref=e29]: Your fairs, applications and messages in one place.
+    - region "Organiser shortcuts" [ref=e30]:
+      - link "My fairs Manage your fair listings." [ref=e31] [cursor=pointer]:
+        - /url: /organiser/fairs
+        - generic [ref=e32]: My fairs
+        - generic [ref=e33]: Manage your fair listings.
+      - link "Create a fair Set up a new fair." [ref=e34] [cursor=pointer]:
+        - /url: /organiser/fairs/new
+        - generic [ref=e35]: Create a fair
+        - generic [ref=e36]: Set up a new fair.
+  - alert [ref=e37]

@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "FairFolk home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - text: FAIRFOLK
+        - navigation "Primary navigation" [ref=e6]:
+          - link "Discover" [ref=e7] [cursor=pointer]:
+            - /url: /discover
+          - link "My fairs" [ref=e8] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Inbox" [ref=e9] [cursor=pointer]:
+            - /url: /inbox
+          - link "Submit a fair" [ref=e10] [cursor=pointer]:
+            - /url: /community/submit
+          - link "Logging" [ref=e11] [cursor=pointer]:
+            - /url: /attendance-logging
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Season" [ref=e13] [cursor=pointer]:
+            - /url: /performance/season
+        - navigation "Organiser navigation" [ref=e14]:
+          - generic [ref=e15]: Organiser
+          - link "My organised fairs" [ref=e16] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Create a fair" [ref=e17] [cursor=pointer]:
+            - /url: /organiser/fairs/new
+      - generic [ref=e18]:
+        - button "Notifications (1 unread)" [ref=e20]:
+          - img [ref=e21]
+          - generic [ref=e24]: "1"
+        - button "Settings" [ref=e26]
+  - alert [ref=e43]
+  - main [ref=e55]:
+    - heading "Notifications" [level=1] [ref=e57]
+    - generic [ref=e58]:
+      - button "Mark all as read" [ref=e60]
+      - list [ref=e61]:
+        - listitem [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - paragraph [ref=e65]: Good news — a space has opened up at Sweep Application Fair
+              - paragraph [ref=e66]: A space has opened up at Sweep Application Fair and we'd love to have you. Your application has been accepted.
+              - paragraph [ref=e67]: 10 Jun 2026
+            - button "Mark read" [ref=e68]
+      - generic [ref=e69]:
+        - button "Previous" [disabled] [ref=e70]
+        - generic [ref=e71]: Page 1
+        - button "Next" [disabled] [ref=e72]

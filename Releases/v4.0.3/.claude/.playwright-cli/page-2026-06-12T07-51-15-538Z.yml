@@ -1,0 +1,67 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications" [ref=e17]:
+          - img [ref=e18]
+        - button "Settings" [ref=e22]
+  - generic [ref=e23]:
+    - link "Skip to main content" [ref=e24] [cursor=pointer]:
+      - /url: "#wizard-main"
+    - banner [ref=e25]:
+      - navigation "Wizard progress" [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - generic [ref=e29]: "1"
+            - generic [ref=e30]: Categories
+          - listitem [ref=e31]:
+            - generic [ref=e32]: "2"
+            - generic [ref=e33]: Location
+          - listitem [ref=e34]:
+            - generic [ref=e35]: "3"
+            - generic [ref=e36]: Discover
+    - main [ref=e37]:
+      - generic [ref=e38]:
+        - heading "What do you sell?" [active] [level=1] [ref=e39]
+        - paragraph [ref=e40]: Choose the categories that best describe your products. You can update these later in settings.
+        - generic [ref=e41]:
+          - group "Product categories" [ref=e42]:
+            - checkbox "Jewellery" [ref=e43]
+            - checkbox "Ceramics" [ref=e44]
+            - checkbox "Textiles" [ref=e45]
+            - checkbox "Art & Prints" [checked] [ref=e46]:
+              - img [ref=e47]
+              - text: Art & Prints
+            - checkbox "Food & Drink" [ref=e49]
+            - checkbox "Candles & Soaps" [ref=e50]
+            - checkbox "Stationery" [ref=e51]
+            - checkbox "Woodwork" [ref=e52]
+            - checkbox "Leatherwork" [ref=e53]
+            - checkbox "Plants & Flowers" [ref=e54]
+            - checkbox "Clothing" [ref=e55]
+            - checkbox "Toys & Games" [ref=e56]
+            - checkbox "Homeware" [ref=e57]
+            - checkbox "Mixed / Other" [ref=e58]
+          - generic [ref=e59]:
+            - button "Skip for now" [ref=e60]
+            - button "Continue" [ref=e61]
+  - alert [ref=e62]

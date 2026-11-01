@@ -1,0 +1,74 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "FairFolk home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - text: FAIRFOLK
+        - navigation "Primary navigation" [ref=e6]:
+          - link "Discover" [ref=e7] [cursor=pointer]:
+            - /url: /discover
+          - link "My fairs" [ref=e8] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Inbox" [ref=e9] [cursor=pointer]:
+            - /url: /inbox
+          - link "Submit a fair" [ref=e10] [cursor=pointer]:
+            - /url: /community/submit
+          - link "Logging" [ref=e11] [cursor=pointer]:
+            - /url: /attendance-logging
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Season" [ref=e13] [cursor=pointer]:
+            - /url: /performance/season
+      - generic [ref=e14]:
+        - button "Notifications (2 unread)" [ref=e63]:
+          - img [ref=e17]
+          - generic [ref=e64]: "2"
+        - button "Settings" [ref=e21]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - heading "Log attendance" [level=1] [ref=e24]
+      - paragraph [ref=e25]: Record revenue and costs for a fair you attended.
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: Fair name*
+        - textbox "Fair name*" [ref=e30]:
+          - /placeholder: e.g. Clifton Village Craft Fair
+          - text: Burton Constable Craft & Gift Fair
+        - paragraph [ref=e72]: Linked to a catalogue fair — ratings and comparison will be available.
+      - generic [ref=e31]:
+        - generic [ref=e32]: Date attended*
+        - textbox "Date attended*" [ref=e33]: 2026-05-01
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: Revenue (£)*
+          - spinbutton "Revenue (£)*" [active] [ref=e37]: "250"
+        - generic [ref=e38]:
+          - generic [ref=e39]: Stall cost (£)*
+          - spinbutton "Stall cost (£)*" [invalid] [ref=e40]: "45"
+          - paragraph [ref=e73]: Stall cost is required
+      - generic [ref=e41]:
+        - generic [ref=e42]: Footfall (optional)
+        - spinbutton "Footfall (optional)" [ref=e43]
+      - generic [ref=e44]:
+        - generic [ref=e45]: Weather (optional)
+        - textbox "Weather (optional)" [ref=e46]:
+          - /placeholder: e.g. Sunny, light breeze
+      - group "Setup ease (optional)" [ref=e47]:
+        - generic [ref=e48]: Setup ease (optional)
+        - generic [ref=e49]:
+          - button "Setup ease 1 out of 5" [ref=e50]: "1"
+          - button "Setup ease 2 out of 5" [ref=e51]: "2"
+          - button "Setup ease 3 out of 5" [ref=e52]: "3"
+          - button "Setup ease 4 out of 5" [ref=e53]: "4"
+          - button "Setup ease 5 out of 5" [ref=e54]: "5"
+        - paragraph [ref=e55]: 1 = very hard, 5 = very easy
+      - generic [ref=e56]:
+        - generic [ref=e57]: Notes (optional)
+        - textbox "Notes (optional)" [ref=e58]:
+          - /placeholder: Anything worth remembering about this fair
+      - generic [ref=e59]:
+        - button "Save attendance" [ref=e60]
+        - link "Cancel" [ref=e61] [cursor=pointer]:
+          - /url: /performance
+  - alert [ref=e62]

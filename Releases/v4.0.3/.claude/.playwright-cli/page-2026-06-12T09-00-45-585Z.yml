@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (2 unread)" [ref=e35]:
+          - img [ref=e18]
+          - generic [ref=e36]: "2"
+        - button "Switch role" [ref=e23]:
+          - text: trader
+          - img [ref=e24]
+        - button "Settings" [ref=e27]
+  - main [ref=e28]:
+    - heading "Data export" [level=1] [ref=e29]
+    - paragraph [ref=e30]: Download a copy of all data associated with your FairFolk account. Exports are available for 48 hours after generation.
+    - paragraph [ref=e39]: Your export is queued…
+  - alert [ref=e34]

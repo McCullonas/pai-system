@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (1 unread)" [ref=e64]:
+          - img [ref=e18]
+          - generic [ref=e65]: "1"
+        - button "Switch role" [ref=e23]:
+          - text: trader
+          - img [ref=e24]
+        - button "Settings" [ref=e27]
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - img [ref=e33]
+          - heading "Burton Constable Craft & Gift Market" [level=1] [ref=e40]
+          - 'generic "Verified means: this organiser is identity-checked and active on FairFolk. Not a quality rating." [ref=e74]': Verified
+        - button "Save to My Fairs" [ref=e42]:
+          - img [ref=e43]
+      - paragraph [ref=e45]: Thursday, 15 October 2026
+      - paragraph [ref=e46]: Pinstone Street, Sheffield, S1 2HH
+    - generic [ref=e53]:
+      - heading "Trader satisfaction" [level=2] [ref=e54]
+      - paragraph [ref=e55]: Not enough ratings yet to show a satisfaction score.
+    - generic [ref=e56]:
+      - heading "Organiser feedback" [level=2] [ref=e57]
+      - paragraph [ref=e58]: Not enough feedback yet to show an organiser score.
+  - alert [ref=e63]

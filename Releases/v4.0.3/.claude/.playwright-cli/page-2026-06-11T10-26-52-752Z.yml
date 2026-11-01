@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "FairFolk home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - text: FAIRFOLK
+        - navigation "Primary navigation" [ref=e6]:
+          - link "Discover" [ref=e7] [cursor=pointer]:
+            - /url: /discover
+          - link "My fairs" [ref=e8] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Inbox" [ref=e9] [cursor=pointer]:
+            - /url: /inbox
+          - link "Submit a fair" [ref=e10] [cursor=pointer]:
+            - /url: /community/submit
+          - link "Logging" [ref=e11] [cursor=pointer]:
+            - /url: /attendance-logging
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Season" [ref=e13] [cursor=pointer]:
+            - /url: /performance/season
+      - generic [ref=e14]:
+        - button "Notifications" [ref=e16]:
+          - img [ref=e17]
+        - button "Settings" [ref=e21]
+  - generic [ref=e22]:
+    - banner [ref=e23]:
+      - heading "Find a fair" [level=1] [ref=e24]
+      - paragraph [ref=e25]: Discover craft fairs near you
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]: Category
+          - combobox "Category" [ref=e30]:
+            - option "All categories" [selected]
+            - option "Jewellery"
+            - option "Ceramics"
+            - option "Textiles"
+            - option "Art & Prints"
+            - option "Food & Drink"
+            - option "Candles & Soaps"
+            - option "Stationery"
+            - option "Woodwork"
+            - option "Leatherwork"
+            - option "Plants & Flowers"
+            - option "Clothing"
+            - option "Toys & Games"
+            - option "Homeware"
+            - option "Mixed / Other"
+        - generic [ref=e31]:
+          - generic [ref=e32]: Region
+          - combobox "Region" [ref=e33]:
+            - option "All regions" [selected]
+            - option "Scotland"
+            - option "North East"
+            - option "North West"
+            - option "Yorkshire & Humber"
+            - option "East Midlands"
+            - option "West Midlands"
+            - option "East of England"
+            - option "Greater London"
+            - option "South East"
+            - option "South West"
+            - option "Wales"
+            - option "Northern Ireland"
+        - generic [ref=e34]:
+          - generic [ref=e35]: Cost
+          - combobox "Cost" [ref=e36]:
+            - option "Any price" [selected]
+            - option "Free"
+            - option "Under £5"
+            - option "£5–£15"
+            - option "£15+"
+        - generic [ref=e37]:
+          - generic [ref=e38]: Venue type
+          - combobox "Venue type" [ref=e39]:
+            - option "Indoor or outdoor" [selected]
+            - option "Indoor"
+            - option "Outdoor"
+            - option "Indoor & Outdoor"
+        - generic [ref=e40]:
+          - generic [ref=e41]: From date
+          - textbox "From date" [ref=e42]: 2026-06-01
+        - generic [ref=e43]:
+          - generic [ref=e44]: To date
+          - textbox "To date" [ref=e45]: 2026-06-15
+        - generic [ref=e46]:
+          - generic [ref=e47]: Sort
+          - combobox "Sort" [ref=e48]:
+            - option "Soonest first" [selected]
+            - option "Soonest first"
+            - option "Latest first"
+        - button "Clear filters" [ref=e51]
+    - main [ref=e52]:
+      - generic [ref=e53]: Loading fairs…

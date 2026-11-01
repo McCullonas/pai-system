@@ -1,0 +1,58 @@
+[
+  {
+    "from": "team-lead",
+    "text": "Status update on addressing Levi's PR #1 feedback - are you currently working on the 20 review comments? The PR shows CHANGES_REQUESTED with Critical/Major severity issues that need to be resolved before merge. Let me know if you need any assistance or clarification on the feedback items.",
+    "summary": "Status update on PR #1 feedback",
+    "timestamp": "2026-03-30T13:08:52.431Z",
+    "read": false
+  },
+  {
+    "from": "team-lead",
+    "text": "**ISSUE WAR-17: CodeRabbit Round 4 Review Feedback - URGENT**\n\n**Priority:** HIGH (Round 4 of 5 before Andy escalation)\n**Feature:** SPEC-001-continuous-audio-capture  \n**PR:** McCullonas/warble#1\n**Stage:** Build (Round 4 CodeRabbit fixes)\n\n**CRITICAL SECURITY ISSUE:**\n\n1. **Shell Injection in generate-udev-rules.sh** (Lines 38-45, 220-225)\n   - Device model/manufacturer strings can contain single quotes and break the sh -c JSON writer\n   - A device like \"O'Reilly Mic\" makes rules syntactically invalid\n   - Malicious descriptors can cause root-level shell injection\n   - **Fix:** Move JSON writing to helper that reads env vars directly, OR fully shell-escape all expanded values including single quotes\n\n**MAJOR ISSUES:**\n\n2. **Signal Validation Fallback Broken** (warble-enhanced-signal-validation.sh:191-223)\n   - When sox is installed but fails, byte-level fallback doesn't run\n   - Layer 4 silently passes with no signal validation\n   - **Fix:** After sox failure, invoke the od/byte-analysis fallback instead of falling through\n\n3. **Recovery Calls Can Kill Validator** (warble-enhanced-signal-validation.sh:92-95 + others)\n   - Bare device-recovery.sh calls can abort enhanced_signal_validation() under set -euo pipefail\n   - Breaks cleanup/return path and kills continuous_signal_monitoring()\n   - **Fix:** Wrap recovery commands in error handling (|| true or explicit handler)\n\n4. **Race Conditions in Monitor State** (device-identity-monitor.sh:243-247 + others)\n   - Using flock -s (shared) for writes allows concurrent state corruption\n   - Multiple monitor instances can clobber state files\n   - **Fix:** Use exclusive lock (flock -x) for entire read-modify-write sequence\n\n5. **Wrong Device Selection** (device-identity-monitor.sh:72-89)\n   - Stops on first VID/PID match, can select wrong identical microphone\n   - Skips serial validation when serial is \"Unknown\"\n   - **Fix:** Scan all matching devices until configured serial matches, fail if no match\n\n**ADDITIONAL FIXES:**\n\n6. **JSON Injection Prevention** (device-identity-monitor.sh:126-139)\n   - Raw here-doc JSON construction vulnerable to device-supplied strings\n   - **Fix:** Use jq -n --arg for safe JSON construction\n\n7. **Systemctl Command Guards** (device-recovery.sh:133-137)\n   - Bare systemctl commands can abort execute_recovery() under set -euo pipefail\n   - **Fix:** Add || true or failure handlers to systemctl calls\n\n8. **Udev Rule Tagging** (generate-udev-rules.sh:200-223)\n   - Common logging rules retag every USB sound node unnecessarily\n   - **Fix:** Only match devices already tagged by device-specific rules\n\n**DELIVERABLE:**\n- Push fixes addressing all 8 issues above\n- Test that shell injection is prevented\n- Verify signal validation fallbacks work correctly\n- Ensure recovery doesn't break monitoring loops\n- Validate exclusive locking prevents race conditions\n\n**CONTEXT:** This is Round 4 of the CodeRabbit review cycle. All issues must be resolved to proceed to Deploy stage. One more round remains before Andy escalation.\n\n**TIMELINE:** Address immediately - pipeline advancement blocked on approval.",
+    "summary": "WAR-17: CodeRabbit Round 4 fixes needed",
+    "timestamp": "2026-03-30T13:35:45.896Z",
+    "read": false
+  },
+  {
+    "from": "team-lead",
+    "text": "Second check-in on PR #1 - CodeRabbit has identified 20 issues including Critical/Major severity items that need addressing. Are you currently working on these fixes? If you're blocked or need assistance with any specific feedback, please let me know so I can help prioritize or escalate accordingly. The pipeline is ready to advance to Deploy/Test stages once the PR is approved.",
+    "summary": "Second check-in on PR #1 CodeRabbit feedback",
+    "timestamp": "2026-03-30T13:42:41.626Z",
+    "read": false
+  },
+  {
+    "from": "team-lead",
+    "text": "**WAR-17 Status Check**\n\nBea, checking on progress for the Round 4 CodeRabbit fixes, particularly the critical shell injection vulnerability in generate-udev-rules.sh.\n\n**Key Concerns:**\n- Critical security issue requires immediate attention\n- Round 4 of 5 before Andy escalation  \n- Pipeline advancement blocked on these fixes\n\n**Status Request:**\n- Are you progressing on the 8 identified issues?\n- Any blockers or technical challenges?\n- Estimated completion time for the security fixes?\n\nThe shell injection vulnerability (Issue #1) is particularly urgent as it could allow root-level access through malicious device descriptors.\n\nPlease provide status update on WAR-17 progress.",
+    "summary": "WAR-17 status check - urgent security fix",
+    "timestamp": "2026-03-30T14:27:19.210Z",
+    "read": false
+  },
+  {
+    "from": "team-lead",
+    "text": "**URGENT: WAR-17 Critical Security Response Required**\n\nBea, it's been 1.5 hours since WAR-17 was created with no response or commits. This is a critical security vulnerability that requires immediate attention.\n\n**Critical Status:**\n- Shell injection vulnerability allows potential root-level access\n- Round 4 of 5 before Andy escalation\n- Pipeline completely blocked on security fixes\n\n**Immediate Action Required:**\n1. Acknowledge receipt of this message\n2. Provide status on the shell injection fix (Issue #1 - generate-udev-rules.sh)\n3. Estimated completion time for critical security issues\n\n**If you are blocked:**\n- What specific technical challenge is preventing progress?\n- Do you need escalation assistance or different approach?\n\n**Next Steps:**\n- If no response within 30 minutes, this will escalate to Andy due to security implications\n- This is our second status check with no response\n\nThe shell injection vulnerability in generate-udev-rules.sh MUST be fixed before deployment. Please respond immediately with status or blockers.",
+    "summary": "WAR-17 URGENT: Critical security fix required",
+    "timestamp": "2026-03-30T15:03:11.631Z",
+    "read": false
+  },
+  {
+    "from": "team-lead",
+    "text": "**CRITICAL: CodeRabbit Round 5 Feedback - PR #1 Final Fixes**\n\nCodeRabbit has identified 3 actionable issues that need immediate resolution:\n\n**Issue 1: Untyped mockResults Array**\n- **Location:** `components/search/search-results.tsx` lines 13-77\n- **Problem:** mockResults uses untyped fields (venue, location, lastVerified) and assumes optional API fields always exist\n- **Fix Required:** Define a typed view model (SearchResultView) and update mockResults to conform, handling optional fields with safe defaults\n\n**Issue 2: Production Performance Issue** \n- **Location:** `components/search/search-results.tsx` lines 10-11\n- **Problem:** Hard-coded 500ms delay causing every search to incur artificial slowdown\n- **Fix Required:** Remove delay entirely OR wrap behind development-only check (`NODE_ENV === \"development\"`)\n\n**Issue 3: Multi-Value URL Parsing Bug**\n- **Location:** `components/search/search-results.tsx` lines 79-85  \n- **Problem:** trustLevels and indoorOutdoor parsing drops string[] values, breaking URLs like `?trustLevels=gold&trustLevels=silver`\n- **Fix Required:** Handle both string and string[] params - split strings on comma, normalize arrays, filter empty entries\n\n**PR Details:**\n- PR #1: https://github.com/McCullonas/fairfolk/pull/1\n- Latest commit: 1c7c863\n- Review submitted: 2026-03-30T15:04:13Z\n\n**Action Required:**\n1. Address all 3 issues above\n2. Test fixes locally \n3. Push single commit with targeted fixes\n4. Reply when complete\n\nThis is Round 5 of CodeRabbit feedback. Focus on clean, precise fixes for these specific issues only.",
+    "summary": "CodeRabbit Round 5 - Fix PR #1",
+    "timestamp": "2026-03-30T15:08:20.791Z",
+    "read": false
+  },
+  {
+    "from": "team-lead",
+    "text": "**WAR-17 CLOSED - REASSIGNED DUE TO TIMEOUT**\n\nBea, WAR-17 has been closed and reassigned to Dylan due to agent timeout protocol.\n\n**Reason for Reassignment:**\n- No response for 2+ hours to critical security vulnerability\n- Multiple urgent escalations ignored (14:27, 15:03 deadlines)\n- Critical shell injection vulnerability blocking production deployment\n- Round 4 of 5 escalation threshold reached\n\n**Action Taken:**\n- WAR-17 closed for timeout\n- WAR-18 created and assigned to Dylan for immediate security fixes\n- Emergency reassignment due to critical security implications\n\n**Status:** WAR-17 CLOSED - No further action required from you on this issue.\n\nCritical security fixes have been transferred to responsive agent to maintain pipeline security and deployment readiness.",
+    "summary": "WAR-17 CLOSED: Reassigned due to timeout",
+    "timestamp": "2026-03-30T15:48:16.138Z",
+    "read": false
+  },
+  {
+    "from": "team-lead",
+    "text": "**2-Hour Check-In: Round 5 CodeRabbit Fixes**\n\nHi Bea, it's been 2 hours since I assigned the Round 5 CodeRabbit fixes for PR #1. Following up per our agent monitoring protocols.\n\n**Status Check:**\n- PR #1 still shows \"CHANGES_REQUESTED\" from 15:04:13Z\n- No new commits detected since assignment\n\n**The 3 issues assigned:**\n1. Untyped mockResults array in search-results.tsx (lines 13-77)\n2. Remove 500ms hardcoded delay (lines 10-11) \n3. Fix multi-value URL parsing for trustLevels/indoorOutdoor (lines 79-85)\n\n**Please provide status update:**\n- Are you currently working on these fixes?\n- Any blockers or questions?\n- Estimated completion time?\n\nThis helps me manage the pipeline timeline and coordinate with downstream stages (Deploy/Test). Let me know how you're progressing.",
+    "summary": "2-hour check-in on Round 5 fixes",
+    "timestamp": "2026-03-30T17:05:57.265Z",
+    "read": false
+  }
+]

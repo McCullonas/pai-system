@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications" [ref=e19]:
+          - img [ref=e20]
+        - button "Settings" [ref=e24]
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - heading "Message your traders" [level=1] [ref=e27]
+      - paragraph [ref=e28]: Broadcast setup instructions, pitch assignments and day-of updates to the traders accepted at your fair.
+    - generic [ref=e29]:
+      - region "Compose broadcast" [ref=e30]:
+        - generic [ref=e31]:
+          - text: Fair
+          - combobox "Fair" [ref=e32]:
+            - option "Sweep Application Fair" [selected]
+        - generic [ref=e33]:
+          - text: Template
+          - combobox "Template" [ref=e34]:
+            - option "Start from scratch"
+            - option "Setup instructions"
+            - option "Pitch assignment" [selected]
+            - option "Weather / day-of update"
+            - option "Thank-you"
+          - paragraph [ref=e53]: "Template: pitch"
+        - group "Recipients" [ref=e35]:
+          - generic [ref=e36]: Recipients
+          - generic [ref=e37]:
+            - radio "All accepted traders" [ref=e38]
+            - text: All accepted traders
+          - generic [ref=e39]:
+            - radio "By product category" [ref=e40]
+            - text: By product category
+          - generic [ref=e41]:
+            - radio "Confirmed only" [ref=e42]
+            - text: Confirmed only
+          - generic [ref=e43]:
+            - radio "Paid only" [checked] [ref=e44]
+            - text: Paid only
+        - generic [ref=e45]:
+          - text: Subject
+          - textbox "Subject" [ref=e46]: Your pitch assignment
+        - generic [ref=e47]:
+          - text: Message
+          - textbox "Message" [ref=e48]: Your pitch has been assigned for the upcoming fair. Please check your pitch number and location on arrival and set up within your marked boundary. If you have an access or power requirement that is not reflected in your placement, let the organiser know on arrival.
+        - button "Send broadcast" [ref=e54]
+        - status [ref=e67]: Broadcast queued to 1 recipient.Dry run — no messages were actually sent
+      - generic [ref=e49]:
+        - heading "Sent broadcasts" [level=2] [ref=e50]
+        - list "Broadcast history" [ref=e56]:
+          - listitem [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]: Your pitch assignment
+              - generic [ref=e71]: 12 Jun 2026, 05:16
+            - generic [ref=e72]:
+              - generic [ref=e73]: paid
+              - generic [ref=e74]: service
+              - generic [ref=e75]: 1 recipient
+              - generic [ref=e76]: dry run
+              - generic [ref=e77]: · sent by Demo Organiser (verified)
+          - listitem [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: Setup instructions for the fair
+              - generic [ref=e60]: 12 Jun 2026, 05:15
+            - generic [ref=e61]:
+              - generic [ref=e62]: accepted
+              - generic [ref=e63]: service
+              - generic [ref=e64]: 1 recipient
+              - generic [ref=e65]: dry run
+              - generic [ref=e66]: · sent by Demo Organiser (verified)
+  - alert [ref=e52]

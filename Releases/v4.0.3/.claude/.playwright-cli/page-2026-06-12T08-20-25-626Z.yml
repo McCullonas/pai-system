@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (6 unread)" [ref=e38]:
+          - img [ref=e18]
+          - generic [ref=e39]: "6"
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - heading "Season planner" [level=1] [ref=e25]
+      - paragraph [ref=e26]: Set your revenue goal for the year and track booked fairs and takings against it.
+      - paragraph [ref=e27]: Only you can see this
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: Season year
+        - combobox "Season year" [ref=e32]:
+          - option "2025"
+          - option "2026" [selected]
+          - option "2027"
+          - option "2028"
+          - option "2029"
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]: Revenue goal for 2026
+          - generic [ref=e43]: Your current goal is £3,500.
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Goal (£)
+            - spinbutton "Goal (£)" [ref=e48]: "3500"
+          - button "Update goal" [ref=e49]
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]: Revenue progress
+          - generic [ref=e53]: Actual takings are the gross revenue from your attendance logs in 2026.
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: £2,180.50
+            - generic [ref=e57]: of £3,500 goal
+          - 'progressbar "Revenue progress: 62% of goal" [ref=e67]'
+          - paragraph [ref=e60]: £1,319.50 to go (62%).
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]: Calendar
+          - generic [ref=e64]: 0 booked fairs across 0 of 12 months · 12 open months
+        - paragraph [ref=e66]: No confirmed fairs booked for 2026 yet. Confirm a fair in My Fairs to see it here.
+  - alert [ref=e37]

@@ -1,0 +1,86 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (6 unread)" [ref=e17]:
+          - img [ref=e18]
+          - generic [ref=e21]: "6"
+        - button "Settings" [ref=e23]
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - link "← Back to Performance" [ref=e26] [cursor=pointer]:
+        - /url: /performance
+      - heading "Compare fairs" [level=1] [ref=e27]
+      - paragraph [ref=e28]: Pick two or more of your attended fairs to see them side by side.
+      - paragraph [ref=e29]: Only you can see this
+    - generic [ref=e31]:
+      - group "Select 2 or more fairs to compare" [ref=e32]:
+        - generic [ref=e33]: Select 2 or more fairs to compare
+        - generic [ref=e34]:
+          - generic [ref=e35] [cursor=pointer]:
+            - checkbox "Burton Constable Craft & Gift Fair" [checked] [ref=e36]
+            - generic [ref=e37]: Burton Constable Craft & Gift Fair
+          - generic [ref=e38] [cursor=pointer]:
+            - checkbox "Burton Constable Craft & Gift Market" [ref=e39]
+            - generic [ref=e40]: Burton Constable Craft & Gift Market
+          - generic [ref=e41] [cursor=pointer]:
+            - checkbox "Sweep Application Fair" [checked] [ref=e42]
+            - generic [ref=e43]: Sweep Application Fair
+        - generic [ref=e44]:
+          - button "Compare (2)" [active] [ref=e48]
+          - generic [ref=e46]: 2 fairs selected
+      - table "Side-by-side comparison of your selected fairs" [ref=e50]:
+        - caption [ref=e51]: Side-by-side comparison of your selected fairs
+        - rowgroup [ref=e52]:
+          - row "Metric Burton Constable Craft & Gift Fair Sweep Application Fair" [ref=e53]:
+            - columnheader "Metric" [ref=e54]
+            - columnheader "Burton Constable Craft & Gift Fair" [ref=e55]
+            - columnheader "Sweep Application Fair" [ref=e56]
+        - rowgroup [ref=e57]:
+          - row "Avg profit / fair +£190 +£130" [ref=e58]:
+            - rowheader "Avg profit / fair" [ref=e59]
+            - cell "+£190" [ref=e60]
+            - cell "+£130" [ref=e61]
+          - row "Satisfaction 4 / 5 4 / 5" [ref=e62]:
+            - rowheader "Satisfaction" [ref=e63]
+            - cell "4 / 5" [ref=e64]
+            - cell "4 / 5" [ref=e65]
+          - row "Worth it Not flagged Worth it" [ref=e66]:
+            - rowheader "Worth it" [ref=e67]
+            - cell "Not flagged" [ref=e68]
+            - cell "Worth it" [ref=e69]
+          - row "Seasonal note Attended in May, Nov (2 logs) Attended in Jun (1 log)" [ref=e70]:
+            - rowheader "Seasonal note" [ref=e71]
+            - cell "Attended in May, Nov (2 logs)" [ref=e72]
+            - cell "Attended in Jun (1 log)" [ref=e73]
+          - row "Logs 2 1" [ref=e74]:
+            - rowheader "Logs" [ref=e75]
+            - cell "2" [ref=e76]
+            - cell "1" [ref=e77]
+          - row "Rating tags — Good footfall Would return" [ref=e78]:
+            - rowheader "Rating tags" [ref=e79]
+            - cell "—" [ref=e80]
+            - cell "Good footfall Would return" [ref=e81]:
+              - list [ref=e82]:
+                - listitem [ref=e83]: Good footfall
+                - listitem [ref=e84]: Would return
+  - alert [ref=e47]

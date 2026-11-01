@@ -1,0 +1,68 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "FairFolk home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - text: FAIRFOLK
+        - navigation "Primary navigation" [ref=e6]:
+          - link "Discover" [ref=e7] [cursor=pointer]:
+            - /url: /discover
+          - link "My fairs" [ref=e8] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Inbox" [ref=e9] [cursor=pointer]:
+            - /url: /inbox
+          - link "Submit a fair" [ref=e10] [cursor=pointer]:
+            - /url: /community/submit
+          - link "Logging" [ref=e11] [cursor=pointer]:
+            - /url: /attendance-logging
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Season" [ref=e13] [cursor=pointer]:
+            - /url: /performance/season
+      - generic [ref=e14]:
+        - button "Notifications" [ref=e16]:
+          - img [ref=e17]
+        - button "Settings" [ref=e21]
+  - main [ref=e22]:
+    - heading "Notification preferences" [level=1] [ref=e23]
+    - paragraph [ref=e24]: Choose which notifications you receive by email and in-app. Transactional notifications (login links, export downloads) are always on.
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Category
+        - generic [ref=e29]: Email
+        - generic [ref=e30]: In-app
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - paragraph [ref=e33]: Login links
+          - paragraph [ref=e34]: Magic-link emails to sign in
+        - generic [ref=e36]: Required
+        - generic [ref=e38]: Required
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: Export downloads
+          - paragraph [ref=e42]: Email + in-app when your data export is ready
+        - generic [ref=e44]: Required
+        - generic [ref=e46]: Required
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: New fairs in your area
+          - paragraph [ref=e50]: When new craft fairs open near you
+          - paragraph [ref=e51]: Email notifications turn off automatically if your address bounces or you unsubscribe. You can turn them back on once your email is working again.
+        - checkbox "New fairs in area — email" [ref=e54]
+        - checkbox "New fairs in area — in-app" [ref=e57]
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - paragraph [ref=e60]: Platform announcements
+          - paragraph [ref=e61]: Product updates and news from FairFolk
+          - paragraph [ref=e62]: Email notifications turn off automatically if your address bounces or you unsubscribe. You can turn them back on once your email is working again.
+        - checkbox "Platform announcements — email" [ref=e65]
+        - checkbox "Platform announcements — in-app" [ref=e68]
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: Marketing
+          - paragraph [ref=e72]: Offers, tips, and promotional emails from FairFolk
+          - paragraph [ref=e73]: Email notifications turn off automatically if your address bounces or you unsubscribe. You can turn them back on once your email is working again.
+        - checkbox "Marketing — email" [ref=e76]
+        - checkbox "Marketing — in-app" [ref=e79]
+  - alert [ref=e80]

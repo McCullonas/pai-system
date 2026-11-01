@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (6 unread)" [ref=e64]:
+          - img [ref=e18]
+          - generic [ref=e65]: "6"
+        - button "Settings" [ref=e22]
+  - alert [ref=e63]: FairFolk
+  - main [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - heading "Performance" [level=1] [ref=e70]
+          - paragraph [ref=e71]: Your per-attendance profit and loss history.
+        - link "Compare fairs" [ref=e72] [cursor=pointer]:
+          - /url: /performance/compare
+      - paragraph [ref=e73]: Only you can see this
+    - table [ref=e77]:
+      - rowgroup [ref=e78]:
+        - row "Fair Date Revenue Expenses Net profit" [ref=e79]:
+          - columnheader "Fair" [ref=e80]
+          - columnheader "Date" [ref=e81]
+          - columnheader "Revenue" [ref=e82]
+          - columnheader "Expenses" [ref=e83]
+          - columnheader "Net profit" [ref=e84]:
+            - button "Net profit" [ref=e85]
+      - rowgroup [ref=e86]:
+        - row "DoD Test Fair Alpha 2026-06-10 £250 £75 +£175" [ref=e87]:
+          - cell "DoD Test Fair Alpha" [ref=e88]
+          - cell "2026-06-10" [ref=e89]
+          - cell "£250" [ref=e90]
+          - cell "£75" [ref=e91]
+          - cell "+£175" [ref=e92]
+        - row "Profit Verification Fair 2026-06-10 £500 £200 +£300" [ref=e93]:
+          - cell "Profit Verification Fair" [ref=e94]
+          - cell "2026-06-10" [ref=e95]
+          - cell "£500" [ref=e96]
+          - cell "£200" [ref=e97]
+          - cell "+£300" [ref=e98]
+        - row "DoD Optional Fields Fair 2026-06-10 £180 £50 +£130" [ref=e99]:
+          - cell "DoD Optional Fields Fair" [ref=e100]
+          - cell "2026-06-10" [ref=e101]
+          - cell "£180" [ref=e102]
+          - cell "£50" [ref=e103]
+          - cell "+£130" [ref=e104]
+        - row "Mobile Speed Test Fair 2026-06-10 £100 £30 +£70" [ref=e105]:
+          - cell "Mobile Speed Test Fair" [ref=e106]
+          - cell "2026-06-10" [ref=e107]
+          - cell "£100" [ref=e108]
+          - cell "£30" [ref=e109]
+          - cell "+£70" [ref=e110]
+        - row "Loss Making Fair DoD 2026-06-09 £50 £100 -£50" [ref=e111]:
+          - cell "Loss Making Fair DoD" [ref=e112]
+          - cell "2026-06-09" [ref=e113]
+          - cell "£50" [ref=e114]
+          - cell "£100" [ref=e115]
+          - cell "-£50" [ref=e116]
+        - row "Sweep Application Fair 2026-06-01 £200 £70 +£130" [ref=e117]:
+          - cell "Sweep Application Fair" [ref=e118]
+          - cell "2026-06-01" [ref=e119]
+          - cell "£200" [ref=e120]
+          - cell "£70" [ref=e121]
+          - cell "+£130" [ref=e122]
+        - row "Test Fair Alpha 2026-06-01 £150.50 £35 +£115.50" [ref=e123]:
+          - cell "Test Fair Alpha" [ref=e124]
+          - cell "2026-06-01" [ref=e125]
+          - cell "£150.50" [ref=e126]
+          - cell "£35" [ref=e127]
+          - cell "+£115.50" [ref=e128]
+        - row "Burton Constable Craft & Gift Fair 2026-05-31 £250 £80 +£170" [ref=e129]:
+          - cell "Burton Constable Craft & Gift Fair" [ref=e130]
+          - cell "2026-05-31" [ref=e131]
+          - cell "£250" [ref=e132]
+          - cell "£80" [ref=e133]
+          - cell "+£170" [ref=e134]
+        - row "QA Test Fair — G2 Batch (Story 11) 2026-05-15 £320 £45 +£275" [ref=e135]:
+          - cell "QA Test Fair — G2 Batch (Story 11)" [ref=e136]
+          - cell "2026-05-15" [ref=e137]
+          - cell "£320" [ref=e138]
+          - cell "£45" [ref=e139]
+          - cell "+£275" [ref=e140]
+        - row "Historical Backfill Fair 2025-11-10 £300 £90 +£210" [ref=e141]:
+          - cell "Historical Backfill Fair" [ref=e142]
+          - cell "2025-11-10" [ref=e143]
+          - cell "£300" [ref=e144]
+          - cell "£90" [ref=e145]
+          - cell "+£210" [ref=e146]

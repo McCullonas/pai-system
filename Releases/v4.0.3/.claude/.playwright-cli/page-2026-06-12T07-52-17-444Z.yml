@@ -1,0 +1,146 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (1 unread)" [ref=e63]:
+          - img [ref=e18]
+          - generic [ref=e64]: "1"
+        - button "Settings" [ref=e22]
+  - generic [ref=e23]:
+    - link "Skip to main content" [ref=e24] [cursor=pointer]:
+      - /url: "#wizard-main"
+    - banner [ref=e25]:
+      - navigation "Wizard progress" [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - 'link "Step 1: Categories (completed)" [ref=e69] [cursor=pointer]':
+              - /url: /signup/trader/step-1
+              - generic [ref=e70]: "1"
+            - generic [ref=e30]: Categories
+          - listitem [ref=e31]:
+            - 'link "Step 2: Location (completed)" [ref=e85] [cursor=pointer]':
+              - /url: /signup/trader/step-2
+              - generic [ref=e86]: "2"
+            - generic [ref=e33]: Location
+          - listitem [ref=e34]:
+            - generic [ref=e35]: "3"
+            - generic [ref=e36]: Discover
+    - main [ref=e37]:
+      - generic [ref=e87]:
+        - heading "Fairs near you" [active] [level=1] [ref=e88]
+        - paragraph [ref=e89]: Browse fairs that match your categories and location.
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]: Category
+                - combobox "Category" [ref=e95]:
+                  - option "All categories"
+                  - option "Jewellery"
+                  - option "Ceramics"
+                  - option "Textiles"
+                  - option "Art & Prints" [selected]
+                  - option "Food & Drink"
+                  - option "Candles & Soaps"
+                  - option "Stationery"
+                  - option "Woodwork"
+                  - option "Leatherwork"
+                  - option "Plants & Flowers"
+                  - option "Clothing"
+                  - option "Toys & Games"
+                  - option "Homeware"
+                  - option "Mixed / Other"
+              - generic [ref=e96]:
+                - generic [ref=e97]: Region
+                - combobox "Region" [ref=e98]:
+                  - option "All regions"
+                  - option "Scotland"
+                  - option "North East"
+                  - option "North West"
+                  - option "Yorkshire & Humber"
+                  - option "East Midlands" [selected]
+                  - option "West Midlands"
+                  - option "East of England"
+                  - option "Greater London"
+                  - option "South East"
+                  - option "South West"
+                  - option "Wales"
+                  - option "Northern Ireland"
+              - generic [ref=e99]:
+                - generic [ref=e100]: Cost
+                - combobox "Cost" [ref=e101]:
+                  - option "Any price" [selected]
+                  - option "Free"
+                  - option "Under £5"
+                  - option "£5–£15"
+                  - option "£15+"
+              - generic [ref=e102]:
+                - generic [ref=e103]: Venue type
+                - combobox "Venue type" [ref=e104]:
+                  - option "Indoor or outdoor" [selected]
+                  - option "Indoor"
+                  - option "Outdoor"
+                  - option "Indoor & Outdoor"
+              - generic [ref=e105]:
+                - generic [ref=e106]: From date
+                - textbox "From date" [ref=e107]
+              - generic [ref=e108]:
+                - generic [ref=e109]: To date
+                - textbox "To date" [ref=e110]
+              - generic [ref=e111]:
+                - generic [ref=e112]: Distance
+                - combobox "Distance" [ref=e113]:
+                  - option "Any distance" [selected]
+                  - option "Within 10 km"
+                  - option "Within 25 km"
+                  - option "Within 50 km"
+                  - option "Within 100 km"
+              - generic [ref=e114]:
+                - generic [ref=e115]: Sort
+                - combobox "Sort" [ref=e116]:
+                  - option "Soonest first" [selected]
+                  - option "Soonest first"
+                  - option "Latest first"
+                  - option "Nearest first"
+              - button "Clear filters" [ref=e119]
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - generic:
+                  - heading "Sherwood street market" [level=3]:
+                    - link "Sherwood street market" [ref=e123] [cursor=pointer]:
+                      - /url: /fairs/sherwood-street-market
+                  - generic [ref=e124]: Community
+                - generic [ref=e125]:
+                  - time [ref=e126]: Sat, 13 Jun 2026
+                  - button "Save to My Fairs" [ref=e127]:
+                    - img [ref=e128]
+              - paragraph [ref=e130]: United reform church · Edwards Ln, Sherwood, Nottingham NG5 3AA
+              - paragraph [ref=e131]: 3.3 km away
+              - generic [ref=e132]:
+                - generic [ref=e133]: Textiles
+                - generic [ref=e134]: Art & Prints
+                - generic [ref=e135]: Under £5
+                - generic [ref=e136]: Outdoor
+          - generic [ref=e137]:
+            - button "Skip to Discover" [ref=e138]
+            - button "Go to Discover" [ref=e139]
+  - alert [ref=e62]: Discover fairs — FairFolk

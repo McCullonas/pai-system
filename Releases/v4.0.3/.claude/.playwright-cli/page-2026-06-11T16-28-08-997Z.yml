@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications" [ref=e19]:
+          - img [ref=e20]
+        - button "Settings" [ref=e24]
+  - main [ref=e25]:
+    - heading "Trader notes" [level=1] [ref=e26]
+    - paragraph [ref=e27]: Your private notes about individual traders. Visible only to you, never to the trader. Add and review notes against each applicant when reviewing applications.
+    - list [ref=e28]:
+      - listitem [ref=e29]:
+        - link "Sweep Application Fair" [ref=e30] [cursor=pointer]:
+          - /url: /organiser/fairs/82dcd1e9-8fe4-41e9-919a-d5d9fef43818/applications
+        - text: published
+  - alert [ref=e31]

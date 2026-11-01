@@ -1,0 +1,97 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications (1 unread)" [ref=e85]:
+          - img [ref=e20]
+          - generic [ref=e86]: "1"
+        - button "Settings" [ref=e24]
+  - main [ref=e25]:
+    - heading "Edit fair" [level=1] [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: published
+        - link "View live ↗" [ref=e30] [cursor=pointer]:
+          - /url: /fairs/sweep-application-fair
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Fair name*
+          - textbox "Fair name*" [ref=e34]: Sweep Application Fair
+        - generic [ref=e35]:
+          - generic [ref=e36]: Event date*
+          - textbox "Event date*" [ref=e37]: 2026-12-15
+        - generic [ref=e38]:
+          - generic [ref=e39]: Location*
+          - textbox "Location*" [ref=e40]: Test Venue, Bath
+        - generic [ref=e41]:
+          - generic [ref=e42]: Description
+          - textbox "Description" [ref=e43]: DoD sweep test fair for F013 application stories
+        - generic [ref=e44]:
+          - generic [ref=e45]: Contact email (optional)
+          - textbox "Contact email (optional)" [ref=e46]:
+            - /placeholder: organiser@example.com
+            - text: qa-contact@fairfolk.test
+          - paragraph [ref=e47]: Only shown to signed-in traders on your fair's public page.
+        - generic [ref=e48]:
+          - generic [ref=e49]: Contact phone (optional)
+          - textbox "Contact phone (optional)" [ref=e50]:
+            - /placeholder: +44 …
+            - text: +44 114 000000
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: Categories
+          - group "Fair categories" [ref=e53]:
+            - checkbox "Jewellery" [ref=e54]
+            - checkbox "Ceramics" [ref=e55]
+            - checkbox "Textiles" [ref=e56]
+            - checkbox "Art & Prints" [ref=e57]
+            - checkbox "Food & Drink" [ref=e58]
+            - checkbox "Candles & Soaps" [ref=e59]
+            - checkbox "Stationery" [ref=e60]
+            - checkbox "Woodwork" [checked] [ref=e61]: ✓Woodwork
+            - checkbox "Leatherwork" [ref=e62]
+            - checkbox "Plants & Flowers" [ref=e63]
+            - checkbox "Clothing" [ref=e64]
+            - checkbox "Toys & Games" [ref=e65]
+            - checkbox "Homeware" [checked] [ref=e66]: ✓Homeware
+            - checkbox "Mixed / Other" [ref=e67]
+        - generic [ref=e68]:
+          - paragraph [ref=e69]: Images
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]: Logo
+              - paragraph [ref=e73]: One logo image, up to 5 MB. JPEG, PNG, WebP, GIF, or AVIF.
+              - button "Logo" [ref=e74]
+            - generic [ref=e75]:
+              - generic [ref=e76]: Images (0/5)
+              - paragraph [ref=e77]: Up to 5 images, each up to 5 MB. JPEG, PNG, WebP, GIF, or AVIF.
+              - button "Images (0/5)" [ref=e78]
+            - alert [ref=e87]: Failed to fetch
+        - generic [ref=e79]:
+          - button "Save changes" [ref=e80]
+          - button "Unpublish" [ref=e81]
+          - button "Application form" [ref=e82]
+          - button "Back to fairs" [ref=e83]
+  - alert [ref=e84]

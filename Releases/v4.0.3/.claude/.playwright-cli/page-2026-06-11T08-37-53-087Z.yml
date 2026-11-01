@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "FairFolk home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: FAIRFOLK
+      - generic [ref=e6]:
+        - button "Notifications" [ref=e8]:
+          - img [ref=e9]
+        - button "Open navigation menu" [ref=e12]:
+          - img [ref=e13]
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - heading "My Fairs" [level=1] [ref=e16]
+      - paragraph [ref=e17]: Fairs you've saved, applied to, or confirmed.
+      - paragraph [ref=e18]: Only you can see this
+    - paragraph [ref=e20]: Loading your fairs…
+  - alert [ref=e21]

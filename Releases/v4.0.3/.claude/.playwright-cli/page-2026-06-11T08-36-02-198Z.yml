@@ -1,0 +1,19 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "FairFolk home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: FAIRFOLK
+      - link "Sign in" [ref=e5] [cursor=pointer]:
+        - /url: /login
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - heading "Sign in to FairFolk" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Enter your email and we'll send you a magic link. Links expire in 10 minutes and can only be used once.
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: Email
+          - textbox "Email" [ref=e13]:
+            - /placeholder: you@example.com
+        - button "Send magic link" [ref=e14]
+  - alert [ref=e15]

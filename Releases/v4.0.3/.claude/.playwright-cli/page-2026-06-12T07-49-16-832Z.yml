@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e40] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e41] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e42] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e43] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e44] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e45] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e46] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e14]:
+        - link "+ New Fair" [ref=e47] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications (2 unread)" [ref=e29]:
+          - img [ref=e18]
+          - generic [ref=e30]: "2"
+        - button "Switch role" [ref=e33]:
+          - text: organiser
+          - img [ref=e34]
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - heading "Add organiser role" [level=1] [ref=e24]
+    - paragraph [ref=e36]: You already have the organiser role.
+  - alert [ref=e28]

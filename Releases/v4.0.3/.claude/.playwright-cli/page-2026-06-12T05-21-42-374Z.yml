@@ -1,0 +1,37 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications" [ref=e17]:
+          - img [ref=e18]
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - heading "Data export" [level=1] [ref=e24]
+    - paragraph [ref=e25]: Download a copy of all data associated with your FairFolk account. Exports are available for 48 hours after generation.
+    - generic [ref=e26]:
+      - paragraph [ref=e27]: Your data export is ready.
+      - paragraph [ref=e28]: "Available until: 12 Jun 2026, 14:24"
+      - generic [ref=e29]:
+        - link "Download export" [ref=e30] [cursor=pointer]:
+          - /url: https://fairfolk-uploads.6405628a175c0633cf1c666eab5aa591.r2.cloudflarestorage.com/exports/8aee5f8c-7099-eb8d-35de-41b1c9bd807f/441ee490-9188-4ab8-a917-beb69b2122db.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=7c2659b3617768de1e1d400d953a34d6%2F20260610%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260610T142407Z&X-Amz-Expires=172799&X-Amz-Signature=c8e43029909c184dee9ef4d35e66320e3d1d7cc9b11599900023afb3b2a9de64&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+        - button "Resend confirmation email" [ref=e31]
+  - alert [ref=e32]

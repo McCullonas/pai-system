@@ -1,0 +1,30 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "FairFolk home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: FAIRFOLK
+      - link "Sign in" [ref=e5] [cursor=pointer]:
+        - /url: /login
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - img [ref=e11]
+          - heading "Burton Constable Craft & Gift Market" [level=1] [ref=e18]
+          - generic [ref=e19]: Community submitted
+        - button "Save to My Fairs" [ref=e20]:
+          - img [ref=e21]
+      - paragraph [ref=e23]: Thursday, 15 October 2026
+      - paragraph [ref=e24]: Pinstone Street, Sheffield, S1 2HH
+    - generic [ref=e25]:
+      - heading "Trader satisfaction" [level=2] [ref=e26]
+      - paragraph [ref=e27]: Not enough ratings yet to show a satisfaction score.
+    - generic [ref=e28]:
+      - heading "Organiser feedback" [level=2] [ref=e29]
+      - paragraph [ref=e30]: Not enough feedback yet to show an organiser score.
+    - group [ref=e31]:
+      - generic "Organiser contact & privacy" [ref=e32] [cursor=pointer]
+    - link "Contact FairFolk about this listing" [ref=e34] [cursor=pointer]:
+      - /url: mailto:listings@fairfolk.co.uk
+  - alert [ref=e35]

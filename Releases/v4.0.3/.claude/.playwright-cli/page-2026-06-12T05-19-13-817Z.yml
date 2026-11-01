@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications" [ref=e19]:
+          - img [ref=e20]
+        - button "Settings" [ref=e24]
+  - main [ref=e25]:
+    - heading "Invite traders to apply" [level=1] [ref=e26]
+    - paragraph [ref=e27]: Bring your existing trader mailing list onto FairFolk. Paste their email addresses and we'll invite them to apply to Sweep Application Fair. Each invitation includes a one-click unsubscribe.
+    - generic [ref=e29]:
+      - generic [ref=e30]: Trader email addresses
+      - textbox "Trader email addresses" [ref=e31]:
+        - /placeholder: "alice@example.com\nbob@example.com\n…"
+      - paragraph [ref=e32]: Separate addresses with commas, semicolons, spaces or new lines. Addresses that have unsubscribed are skipped automatically.
+      - generic [ref=e33]:
+        - button "Import and invite" [disabled]
+  - alert [ref=e34]

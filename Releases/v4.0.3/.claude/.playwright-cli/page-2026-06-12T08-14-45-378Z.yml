@@ -1,0 +1,44 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (6 unread)" [ref=e33]:
+          - img [ref=e18]
+          - generic [ref=e34]: "6"
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - heading "Calendar feed" [level=1] [ref=e24]
+    - paragraph [ref=e25]: Subscribe to your fair bookmarks in any calendar app (Apple Calendar, Google Calendar, Outlook, …) using a private iCal feed URL.
+    - generic [ref=e26]:
+      - paragraph [ref=e27]:
+        - strong [ref=e28]: Treat this URL like a password.
+        - text: Anyone who has it can see your fair bookmarks. Do not share it, and rotate it immediately if you think it has been compromised.
+      - generic [ref=e35]:
+        - text: Your feed URL
+        - generic [ref=e36]:
+          - textbox "Your feed URL" [ref=e37]: https://fairfolk.co.uk/api/calendar/fMhCTe8ZkIWY73fUQCYHjXh5gLYmUX6crshdoO_VJzA.ics
+          - button "Copy" [ref=e38]
+        - paragraph [ref=e39]: This URL is shown once. Refresh the page and it will no longer be visible — rotate the token to get a new one.
+      - generic [ref=e29]:
+        - button "Rotate feed URL" [ref=e30]
+        - button "Revoke feed URL" [ref=e31]
+  - alert [ref=e32]

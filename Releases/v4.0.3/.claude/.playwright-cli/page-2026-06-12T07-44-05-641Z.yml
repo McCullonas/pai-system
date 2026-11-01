@@ -1,0 +1,77 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "FairFolk home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: FAIRFOLK
+      - link "Sign in" [ref=e5] [cursor=pointer]:
+        - /url: /login
+  - generic [ref=e6]:
+    - banner [ref=e7]:
+      - heading "Find a fair" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Discover craft fairs near you
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: Category
+          - combobox "Category" [ref=e14]:
+            - option "All categories" [selected]
+            - option "Jewellery"
+            - option "Ceramics"
+            - option "Textiles"
+            - option "Art & Prints"
+            - option "Food & Drink"
+            - option "Candles & Soaps"
+            - option "Stationery"
+            - option "Woodwork"
+            - option "Leatherwork"
+            - option "Plants & Flowers"
+            - option "Clothing"
+            - option "Toys & Games"
+            - option "Homeware"
+            - option "Mixed / Other"
+        - generic [ref=e15]:
+          - generic [ref=e16]: Region
+          - combobox "Region" [ref=e17]:
+            - option "All regions" [selected]
+            - option "Scotland"
+            - option "North East"
+            - option "North West"
+            - option "Yorkshire & Humber"
+            - option "East Midlands"
+            - option "West Midlands"
+            - option "East of England"
+            - option "Greater London"
+            - option "South East"
+            - option "South West"
+            - option "Wales"
+            - option "Northern Ireland"
+        - generic [ref=e18]:
+          - generic [ref=e19]: Cost
+          - combobox "Cost" [ref=e20]:
+            - option "Any price" [selected]
+            - option "Free"
+            - option "Under £5"
+            - option "£5–£15"
+            - option "£15+"
+        - generic [ref=e21]:
+          - generic [ref=e22]: Venue type
+          - combobox "Venue type" [ref=e23]:
+            - option "Indoor or outdoor" [selected]
+            - option "Indoor"
+            - option "Outdoor"
+            - option "Indoor & Outdoor"
+        - generic [ref=e24]:
+          - generic [ref=e25]: From date
+          - textbox "From date" [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]: To date
+          - textbox "To date" [ref=e29]
+        - generic [ref=e30]:
+          - generic [ref=e31]: Sort
+          - combobox "Sort" [ref=e32]:
+            - option "Soonest first" [selected]
+            - option "Soonest first"
+            - option "Latest first"
+    - main [ref=e33]:
+      - generic [ref=e34]: Loading fairs…
+  - alert [ref=e35]

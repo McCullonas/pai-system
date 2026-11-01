@@ -1,0 +1,74 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications" [ref=e19]:
+          - img [ref=e20]
+        - button "Settings" [ref=e24]
+  - main [ref=e25]:
+    - link "← Back to applications" [ref=e26] [cursor=pointer]:
+      - /url: /organiser/fairs/82dcd1e9-8fe4-41e9-919a-d5d9fef43818/applications
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - heading "Demo Trader (trader1)" [level=1] [ref=e29]
+        - paragraph [ref=e30]: trader1@fairfolk.test
+        - generic [ref=e31]:
+          - generic [ref=e32]: "Status: shortlisted"
+          - generic [ref=e33]: "Submitted: 10 Jun 2026"
+      - generic [ref=e34]:
+        - heading "Profile" [level=2] [ref=e35]
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - term [ref=e38]: Categories
+            - definition [ref=e39]: Jewellery, Ceramics
+          - generic [ref=e40]:
+            - term [ref=e41]: Region
+            - definition [ref=e42]: Yorkshire & Humber
+      - generic [ref=e43]:
+        - heading "Answers" [level=2] [ref=e44]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - term [ref=e47]: Business name
+            - definition [ref=e48]: Demo Trader (trader1)
+          - generic [ref=e49]:
+            - term [ref=e50]: Contact email
+            - definition [ref=e51]: trader1@fairfolk.test
+          - generic [ref=e52]:
+            - term [ref=e53]: Product categories
+            - definition [ref=e54]: Jewellery
+      - generic [ref=e55]:
+        - heading "Your private notes about this trader" [level=2] [ref=e56]
+        - paragraph [ref=e57]: Visible only to you. The trader never sees these notes.
+        - list [ref=e64]:
+          - listitem [ref=e65]:
+            - paragraph [ref=e66]: Arrived early, beautiful display — P7 QA
+            - paragraph [ref=e67]: 11 Jun 2026
+        - generic [ref=e59]:
+          - generic [ref=e60]: Add a private note
+          - textbox "Add a private note" [ref=e61]:
+            - /placeholder: e.g. Beautiful display, arrived on time
+          - button "Add note" [disabled] [ref=e62]
+  - alert [ref=e63]

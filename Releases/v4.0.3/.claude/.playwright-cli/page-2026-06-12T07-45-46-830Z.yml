@@ -1,0 +1,69 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - link "FairFolk home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - text: FAIRFOLK
+        - generic [ref=e7]: ·trader
+      - generic [ref=e8]:
+        - button "Notifications" [ref=e10]:
+          - img [ref=e11]
+        - button "Open menu" [ref=e14]:
+          - img [ref=e15]
+    - navigation "Primary navigation" [ref=e16]:
+      - link "Discover" [ref=e17] [cursor=pointer]:
+        - /url: /discover
+      - link "My Fairs" [ref=e18] [cursor=pointer]:
+        - /url: /my-fairs
+      - link "Quick Log" [ref=e20] [cursor=pointer]:
+        - /url: /attendance-logging
+        - generic [ref=e21]: +
+      - link "Performance" [ref=e22] [cursor=pointer]:
+        - /url: /performance
+      - link "Profile" [ref=e23] [cursor=pointer]:
+        - /url: /profile
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - heading "Log attendance" [level=1] [ref=e27]
+      - paragraph [ref=e28]: Record revenue and costs for a fair you attended.
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]: Fair name*
+        - textbox "Fair name*" [ref=e33]:
+          - /placeholder: e.g. Clifton Village Craft Fair
+      - generic [ref=e34]:
+        - generic [ref=e35]: Date attended*
+        - textbox "Date attended*" [ref=e36]: 2026-06-12
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: Revenue (£)*
+          - spinbutton "Revenue (£)*" [ref=e40]
+        - generic [ref=e41]:
+          - generic [ref=e42]: Stall cost (£)*
+          - spinbutton "Stall cost (£)*" [ref=e43]
+      - generic [ref=e44]:
+        - generic [ref=e45]: Footfall (optional)
+        - spinbutton "Footfall (optional)" [ref=e46]
+      - generic [ref=e47]:
+        - generic [ref=e48]: Weather (optional)
+        - textbox "Weather (optional)" [ref=e49]:
+          - /placeholder: e.g. Sunny, light breeze
+      - group "Setup ease (optional)" [ref=e50]:
+        - generic [ref=e51]: Setup ease (optional)
+        - generic [ref=e52]:
+          - button "Setup ease 1 out of 5" [ref=e53]: "1"
+          - button "Setup ease 2 out of 5" [ref=e54]: "2"
+          - button "Setup ease 3 out of 5" [ref=e55]: "3"
+          - button "Setup ease 4 out of 5" [ref=e56]: "4"
+          - button "Setup ease 5 out of 5" [ref=e57]: "5"
+        - paragraph [ref=e58]: 1 = very hard, 5 = very easy
+      - generic [ref=e59]:
+        - generic [ref=e60]: Notes (optional)
+        - textbox "Notes (optional)" [ref=e61]:
+          - /placeholder: Anything worth remembering about this fair
+      - generic [ref=e62]:
+        - button "Save attendance" [ref=e63]
+        - link "Cancel" [ref=e64] [cursor=pointer]:
+          - /url: /performance
+  - alert [ref=e65]

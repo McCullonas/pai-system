@@ -1,0 +1,55 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "FairFolk home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - text: FAIRFOLK
+        - navigation "Primary navigation" [ref=e6]:
+          - link "Discover" [ref=e7] [cursor=pointer]:
+            - /url: /discover
+          - link "My fairs" [ref=e8] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Inbox" [ref=e9] [cursor=pointer]:
+            - /url: /inbox
+          - link "Submit a fair" [ref=e10] [cursor=pointer]:
+            - /url: /community/submit
+          - link "Logging" [ref=e11] [cursor=pointer]:
+            - /url: /attendance-logging
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Season" [ref=e13] [cursor=pointer]:
+            - /url: /performance/season
+        - navigation "Organiser navigation" [ref=e14]:
+          - generic [ref=e15]: Organiser
+          - link "My organised fairs" [ref=e16] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Create a fair" [ref=e17] [cursor=pointer]:
+            - /url: /organiser/fairs/new
+      - generic [ref=e18]:
+        - button "Notifications" [ref=e20]:
+          - img [ref=e21]
+        - button "Settings" [ref=e25]
+  - main [ref=e26]:
+    - generic [ref=e27]:
+      - heading "Your fairs" [level=1] [ref=e28]
+      - link "Create fair" [ref=e29] [cursor=pointer]:
+        - /url: /organiser/fairs/new
+    - list [ref=e30]:
+      - listitem [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - paragraph [ref=e34]: Sweep Application Fair
+            - paragraph [ref=e35]: 15 Dec 2026 · Test Venue, Bath
+          - generic [ref=e36]: published
+        - generic [ref=e37]:
+          - link "Edit" [ref=e38] [cursor=pointer]:
+            - /url: /organiser/fairs/82dcd1e9-8fe4-41e9-919a-d5d9fef43818/edit
+          - link "Form" [ref=e39] [cursor=pointer]:
+            - /url: /organiser/fairs/82dcd1e9-8fe4-41e9-919a-d5d9fef43818/form
+          - link "Applications" [ref=e40] [cursor=pointer]:
+            - /url: /organiser/fairs/82dcd1e9-8fe4-41e9-919a-d5d9fef43818/applications
+          - link "View live ↗" [ref=e41] [cursor=pointer]:
+            - /url: /fairs/sweep-application-fair
+          - button "Unpublish" [ref=e42]
+  - alert [ref=e43]

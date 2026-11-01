@@ -1,0 +1,50 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (6 unread)" [ref=e17]:
+          - img [ref=e18]
+          - generic [ref=e21]: "6"
+        - button "Settings" [ref=e23]
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - link "← Back to Performance" [ref=e26] [cursor=pointer]:
+        - /url: /performance
+      - heading "Compare fairs" [level=1] [ref=e27]
+      - paragraph [ref=e28]: Pick two or more of your attended fairs to see them side by side.
+      - paragraph [ref=e29]: Only you can see this
+    - group "Select 2 or more fairs to compare" [ref=e32]:
+      - generic [ref=e33]: Select 2 or more fairs to compare
+      - generic [ref=e34]:
+        - generic [ref=e35] [cursor=pointer]:
+          - checkbox "Burton Constable Craft & Gift Fair" [checked] [ref=e36]
+          - generic [ref=e37]: Burton Constable Craft & Gift Fair
+        - generic [ref=e38] [cursor=pointer]:
+          - checkbox "Burton Constable Craft & Gift Market" [ref=e39]
+          - generic [ref=e40]: Burton Constable Craft & Gift Market
+        - generic [ref=e41] [cursor=pointer]:
+          - checkbox "Sweep Application Fair" [checked] [active] [ref=e42]
+          - generic [ref=e43]: Sweep Application Fair
+      - generic [ref=e44]:
+        - button "Compare (2)" [ref=e48]
+        - generic [ref=e46]: 2 fairs selected
+  - alert [ref=e47]

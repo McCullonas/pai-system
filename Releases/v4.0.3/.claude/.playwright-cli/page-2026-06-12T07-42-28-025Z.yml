@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications" [ref=e17]:
+          - img [ref=e18]
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - heading "What would you like to do?" [level=1] [ref=e25]
+      - generic [ref=e26]:
+        - link "Discover fairs near you Browse upcoming craft fairs and markets in your area." [ref=e27] [cursor=pointer]:
+          - /url: /discover
+          - generic [ref=e28]:
+            - generic [ref=e30]: Discover fairs near you
+            - generic [ref=e32]: Browse upcoming craft fairs and markets in your area.
+        - link "Log a fair you've done Record your attendance and track your performance." [ref=e33] [cursor=pointer]:
+          - /url: /attendance-logging
+          - generic [ref=e34]:
+            - generic [ref=e36]: Log a fair you've done
+            - generic [ref=e38]: Record your attendance and track your performance.
+  - alert [ref=e39]

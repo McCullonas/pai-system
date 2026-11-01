@@ -1,0 +1,63 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (1 unread)" [ref=e28]:
+          - img [ref=e18]
+          - generic [ref=e29]: "1"
+        - button "Settings" [ref=e22]
+  - alert [ref=e27]: Sweep Application Fair | FairFolk
+  - main [ref=e92]:
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - img [ref=e97]
+          - heading "Sweep Application Fair" [level=1] [ref=e104]
+          - 'generic "Verified means: this organiser is identity-checked and active on FairFolk. Not a quality rating." [ref=e105]': Verified
+        - button "Saved to My Fairs" [disabled] [ref=e106]:
+          - img [ref=e107]
+      - paragraph [ref=e109]: Tuesday, 15 December 2026
+      - paragraph [ref=e110]: Test Venue, Bath
+    - generic [ref=e111]:
+      - heading "Trader satisfaction" [level=2] [ref=e112]
+      - paragraph [ref=e113]: Not enough ratings yet to show a satisfaction score.
+    - generic [ref=e114]:
+      - heading "Organiser feedback" [level=2] [ref=e115]
+      - paragraph [ref=e116]:
+        - generic [ref=e117]: 4.0 / 5
+        - text: from 3 traders who left feedback.
+    - paragraph [ref=e118]: DoD sweep test fair for F013 application stories
+    - generic [ref=e119]:
+      - paragraph [ref=e120]: You've applied to this fair.
+      - link "View your application →" [ref=e121] [cursor=pointer]:
+        - /url: /my-fairs
+    - generic [ref=e122]:
+      - heading "Contact the organiser" [level=2] [ref=e123]
+      - list [ref=e124]:
+        - listitem [ref=e125]:
+          - text: "Email:"
+          - link "qa-contact@fairfolk.test" [ref=e126] [cursor=pointer]:
+            - /url: mailto:qa-contact@fairfolk.test
+        - listitem [ref=e127]:
+          - text: "Phone:"
+          - link "+44 114 000000" [ref=e128] [cursor=pointer]:
+            - /url: tel:+44 114 000000

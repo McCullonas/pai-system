@@ -1,0 +1,62 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (1 unread)" [ref=e63]:
+          - img [ref=e18]
+          - generic [ref=e64]: "1"
+        - button "Settings" [ref=e22]
+  - generic [ref=e23]:
+    - link "Skip to main content" [ref=e24] [cursor=pointer]:
+      - /url: "#wizard-main"
+    - banner [ref=e25]:
+      - navigation "Wizard progress" [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - 'link "Step 1: Categories (completed)" [ref=e69] [cursor=pointer]':
+              - /url: /signup/trader/step-1
+              - generic [ref=e70]: "1"
+            - generic [ref=e30]: Categories
+          - listitem [ref=e31]:
+            - generic [ref=e32]: "2"
+            - generic [ref=e33]: Location
+          - listitem [ref=e34]:
+            - generic [ref=e35]: "3"
+            - generic [ref=e36]: Discover
+    - main [ref=e37]:
+      - generic [ref=e71]:
+        - heading "Where are you based?" [active] [level=1] [ref=e72]
+        - paragraph [ref=e73]: We use this to show you fairs near you. You can update this later in settings.
+        - generic [ref=e74]:
+          - tablist "Location input method" [ref=e75]:
+            - tab "Postcode" [selected] [ref=e76]
+            - tab "Region" [ref=e77]
+            - tab "My location" [ref=e78]
+          - generic [ref=e79]:
+            - generic [ref=e80]: Enter your postcode
+            - textbox "Enter your postcode" [ref=e81]:
+              - /placeholder: e.g. SW1A 1AA
+              - text: S1 2BJ
+          - generic [ref=e82]:
+            - button "Skip for now" [ref=e83]
+            - button "Continue" [ref=e84]
+  - alert [ref=e62]: Your base location — FairFolk

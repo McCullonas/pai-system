@@ -1,0 +1,195 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (2 unread)" [ref=e31]:
+          - img [ref=e18]
+          - generic [ref=e32]: "2"
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - heading "My Fairs" [level=1] [ref=e25]
+      - paragraph [ref=e26]: Fairs you've saved, applied to, or confirmed.
+      - paragraph [ref=e27]: Only you can see this
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - button "All" [pressed] [ref=e35]
+        - button "Interested" [ref=e36]
+        - button "Applied" [ref=e37]
+        - button "Shortlisted" [ref=e38]
+        - button "Confirmed" [ref=e39]
+        - button "Attended" [ref=e40]
+        - button "Withdrawn" [ref=e41]
+        - button "Cancelled" [ref=e42]
+      - generic [ref=e43]:
+        - article [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - link "Sherwood street market" [ref=e47] [cursor=pointer]:
+                - /url: /fairs/sherwood-street-market
+              - paragraph [ref=e48]: Edwards Ln, Sherwood, Nottingham NG5 3AA
+              - paragraph [ref=e49]: Sat, 13 Jun 2026
+            - generic [ref=e51]: Interested
+          - generic [ref=e53]:
+            - button "Applied" [ref=e54]
+            - button "Withdrawn" [ref=e55]
+        - article [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - link "Sweep Application Fair" [ref=e59] [cursor=pointer]:
+                - /url: /fairs/sweep-application-fair
+              - paragraph [ref=e60]: Test Venue, Bath
+              - paragraph [ref=e61]: Tue, 15 Dec 2026
+            - generic [ref=e63]: Withdrawn
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - button "Previous month" [ref=e67]: ←
+          - heading "June 2026" [level=2] [ref=e68]
+          - button "Next month" [ref=e69]: →
+        - generic [ref=e70]:
+          - generic [ref=e71]: Mon
+          - generic [ref=e72]: Tue
+          - generic [ref=e73]: Wed
+          - generic [ref=e74]: Thu
+          - generic [ref=e75]: Fri
+          - generic [ref=e76]: Sat
+          - generic [ref=e77]: Sun
+          - generic [ref=e79]: "1"
+          - generic [ref=e81]: "2"
+          - generic [ref=e83]: "3"
+          - generic [ref=e85]: "4"
+          - generic [ref=e87]: "5"
+          - generic [ref=e89]: "6"
+          - generic [ref=e91]: "7"
+          - generic [ref=e93]: "8"
+          - generic [ref=e95]: "9"
+          - generic [ref=e97]: "10"
+          - generic [ref=e99]: "11"
+          - generic [ref=e101]: "12"
+          - generic [ref=e102]:
+            - generic [ref=e103]: "13"
+            - generic "Sherwood street market" [ref=e105]
+          - generic [ref=e107]: "14"
+          - generic [ref=e109]: "15"
+          - generic [ref=e111]: "16"
+          - generic [ref=e113]: "17"
+          - generic [ref=e115]: "18"
+          - generic [ref=e117]: "19"
+          - generic [ref=e119]: "20"
+          - generic [ref=e121]: "21"
+          - generic [ref=e123]: "22"
+          - generic [ref=e125]: "23"
+          - generic [ref=e127]: "24"
+          - generic [ref=e129]: "25"
+          - generic [ref=e131]: "26"
+          - generic [ref=e133]: "27"
+          - generic [ref=e135]: "28"
+          - generic [ref=e137]: "29"
+          - generic [ref=e139]: "30"
+      - region "Attended" [ref=e145]:
+        - heading "Attended" [level=2] [ref=e146]
+        - list [ref=e147]:
+          - listitem [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - paragraph [ref=e151]: Burton Constable Craft & Gift Fair
+                - paragraph [ref=e152]: 1 May 2026 · Skirlaugh, East Yorkshire, England
+              - generic [ref=e153]: £250.00
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - paragraph [ref=e157]: Rate this fair
+                - paragraph [ref=e158]: Private to you — never shown to Burton Constable Craft & Gift Fair organisers or other traders.
+              - radiogroup "Score for Burton Constable Craft & Gift Fair, 1 to 5" [ref=e159]:
+                - radio "1 out of 5" [ref=e160]: "1"
+                - radio "2 out of 5" [ref=e161]: "2"
+                - radio "3 out of 5" [ref=e162]: "3"
+                - radio "4 out of 5" [ref=e163]: "4"
+                - radio "5 out of 5" [ref=e164]: "5"
+              - group "Tags (optional)" [ref=e165]:
+                - generic [ref=e166]: Tags (optional)
+                - generic [ref=e167]:
+                  - button "Good footfall" [ref=e168]
+                  - button "Well organised" [ref=e169]
+                  - button "Worth the cost" [ref=e170]
+                  - button "Friendly crowd" [ref=e171]
+                  - button "Good for sales" [ref=e172]
+                  - button "Easy setup" [ref=e173]
+                  - button "Would return" [ref=e174]
+                  - button "Poor footfall" [ref=e175]
+                  - button "Overpriced" [ref=e176]
+                  - button "Disorganised" [ref=e177]
+              - button "Save rating" [ref=e178]
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - paragraph [ref=e182]: Give Burton Constable Craft & Gift Fair organiser feedback
+                - paragraph [ref=e183]: Anonymous to the organiser — they see your ratings and comment, never that they came from you.
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - paragraph [ref=e186]: Organisation
+                  - radiogroup "Organisation score, 1 to 5" [ref=e187]:
+                    - radio "1 out of 5" [ref=e188]: "1"
+                    - radio "2 out of 5" [ref=e189]: "2"
+                    - radio "3 out of 5" [ref=e190]: "3"
+                    - radio "4 out of 5" [checked] [ref=e191]: "4"
+                    - radio "5 out of 5" [ref=e192]: "5"
+                - generic [ref=e193]:
+                  - paragraph [ref=e194]: Pitch / location
+                  - radiogroup "Pitch / location score, 1 to 5" [ref=e195]:
+                    - radio "1 out of 5" [ref=e196]: "1"
+                    - radio "2 out of 5" [ref=e197]: "2"
+                    - radio "3 out of 5" [ref=e198]: "3"
+                    - radio "4 out of 5" [ref=e199]: "4"
+                    - radio "5 out of 5" [checked] [ref=e200]: "5"
+                - generic [ref=e201]:
+                  - paragraph [ref=e202]: Marketing
+                  - radiogroup "Marketing score, 1 to 5" [ref=e203]:
+                    - radio "1 out of 5" [ref=e204]: "1"
+                    - radio "2 out of 5" [ref=e205]: "2"
+                    - radio "3 out of 5" [ref=e206]: "3"
+                    - radio "4 out of 5" [checked] [active] [ref=e207]: "4"
+                    - radio "5 out of 5" [ref=e208]: "5"
+                - generic [ref=e209]:
+                  - paragraph [ref=e210]: Overall experience
+                  - radiogroup "Overall experience score, 1 to 5" [ref=e211]:
+                    - radio "1 out of 5" [ref=e212]: "1"
+                    - radio "2 out of 5" [ref=e213]: "2"
+                    - radio "3 out of 5" [ref=e214]: "3"
+                    - radio "4 out of 5" [ref=e215]: "4"
+                    - radio "5 out of 5" [ref=e216]: "5"
+              - generic [ref=e217]:
+                - generic [ref=e218]: Comment (optional)
+                - textbox "Comment (optional)" [ref=e219]:
+                  - /placeholder: Anything the organiser should know?
+              - generic [ref=e220]:
+                - paragraph [ref=e221]: Would you apply to this fair again?
+                - radiogroup "Would you apply again" [ref=e222]:
+                  - radio "Yes" [ref=e223]
+                  - radio "No" [ref=e224]
+              - button "Send feedback" [ref=e225]
+          - listitem [ref=e226]:
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - paragraph [ref=e229]: Totally Unlisted Fair 2026
+                - paragraph [ref=e230]: 1 May 2026
+              - generic [ref=e231]: £180.00
+            - button "Link to a catalogue fair" [ref=e233]
+  - alert [ref=e30]

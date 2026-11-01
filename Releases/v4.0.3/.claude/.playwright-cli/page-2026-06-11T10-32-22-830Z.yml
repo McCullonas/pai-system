@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "FairFolk home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - text: FAIRFOLK
+        - navigation "Primary navigation" [ref=e6]:
+          - link "Discover" [ref=e7] [cursor=pointer]:
+            - /url: /discover
+          - link "My fairs" [ref=e8] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Inbox" [ref=e9] [cursor=pointer]:
+            - /url: /inbox
+          - link "Submit a fair" [ref=e10] [cursor=pointer]:
+            - /url: /community/submit
+          - link "Logging" [ref=e11] [cursor=pointer]:
+            - /url: /attendance-logging
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Season" [ref=e13] [cursor=pointer]:
+            - /url: /performance/season
+      - generic [ref=e14]:
+        - button "Notifications" [ref=e16]:
+          - img [ref=e17]
+        - button "Settings" [ref=e21]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - link "← Back to Performance" [ref=e24] [cursor=pointer]:
+        - /url: /performance
+      - heading "Compare fairs" [level=1] [ref=e25]
+      - paragraph [ref=e26]: Pick two or more of your attended fairs to see them side by side.
+      - paragraph [ref=e27]: Only you can see this
+    - paragraph [ref=e29]: Loading your fairs…
+  - alert [ref=e30]

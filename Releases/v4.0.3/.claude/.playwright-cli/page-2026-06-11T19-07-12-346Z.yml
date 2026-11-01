@@ -1,0 +1,97 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications" [ref=e19]:
+          - img [ref=e20]
+        - button "Settings" [ref=e24]
+  - main [ref=e25]:
+    - heading "Applications" [level=1] [ref=e26]
+    - paragraph [ref=e27]: Stallholders who have applied to Sweep Application Fair.
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - text: Status
+          - combobox "Status" [ref=e33]:
+            - option "All statuses"
+            - option "Received"
+            - option "Shortlisted"
+            - option "Accepted" [selected]
+            - option "Confirmed"
+            - option "Paid"
+            - option "Waitlisted"
+            - option "Rejected"
+            - option "Withdrawn"
+        - generic [ref=e34]:
+          - text: Category
+          - combobox "Category" [ref=e35]:
+            - option "All categories" [selected]
+            - option "Jewellery"
+            - option "Ceramics"
+            - option "Textiles"
+            - option "Art & Prints"
+            - option "Food & Drink"
+            - option "Candles & Soaps"
+            - option "Stationery"
+            - option "Woodwork"
+            - option "Leatherwork"
+            - option "Plants & Flowers"
+            - option "Clothing"
+            - option "Toys & Games"
+            - option "Homeware"
+            - option "Mixed / Other"
+        - generic [ref=e36]:
+          - text: Trader name
+          - searchbox "Trader name" [active] [ref=e37]: Demo Trader (trader4)
+        - button "Clear filters" [ref=e166]
+      - paragraph [ref=e169]: No applications match the selected filters.
+      - generic [ref=e38]:
+        - region "Received" [ref=e39]:
+          - generic [ref=e40]:
+            - heading "Received" [level=2] [ref=e41]
+            - generic [ref=e42]: "0"
+          - paragraph [ref=e170]: No applications
+        - region "Shortlisted" [ref=e53]:
+          - generic [ref=e54]:
+            - heading "Shortlisted" [level=2] [ref=e55]
+            - generic [ref=e56]: "0"
+          - paragraph [ref=e167]: No applications
+        - region "Accepted" [ref=e76]:
+          - generic [ref=e77]:
+            - heading "Accepted" [level=2] [ref=e78]
+            - generic [ref=e79]: "0"
+          - paragraph [ref=e116]: No applications
+        - region "Confirmed" [ref=e82]:
+          - generic [ref=e83]:
+            - heading "Confirmed" [level=2] [ref=e84]
+            - generic [ref=e85]: "0"
+          - paragraph [ref=e126]: No applications
+        - region "Paid" [ref=e88]:
+          - generic [ref=e89]:
+            - heading "Paid" [level=2] [ref=e90]
+            - generic [ref=e91]: "0"
+          - paragraph [ref=e168]: No applications
+  - alert [ref=e29]

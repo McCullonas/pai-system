@@ -1,0 +1,91 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications" [ref=e19]:
+          - img [ref=e20]
+        - button "Settings" [ref=e24]
+  - main [ref=e25]:
+    - heading "Edit fair" [level=1] [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e29]: draft
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: Fair name*
+          - textbox "Fair name*" [ref=e33]: Sweep Application Fair
+        - generic [ref=e34]:
+          - generic [ref=e35]: Event date*
+          - textbox "Event date*" [ref=e36]: 2026-12-15
+        - generic [ref=e37]:
+          - generic [ref=e38]: Location*
+          - textbox "Location*" [ref=e39]: Test Venue, Bath
+        - generic [ref=e40]:
+          - generic [ref=e41]: Description
+          - textbox "Description" [ref=e42]: DoD sweep test fair - G6 edit test 2026-06-12
+        - generic [ref=e43]:
+          - generic [ref=e44]: Contact email (optional)
+          - textbox "Contact email (optional)" [ref=e45]:
+            - /placeholder: organiser@example.com
+            - text: qa-contact@fairfolk.test
+          - paragraph [ref=e46]: Only shown to signed-in traders on your fair's public page.
+        - generic [ref=e47]:
+          - generic [ref=e48]: Contact phone (optional)
+          - textbox "Contact phone (optional)" [ref=e49]:
+            - /placeholder: +44 …
+            - text: +44 114 000000
+        - generic [ref=e50]:
+          - paragraph [ref=e51]: Categories
+          - group "Fair categories" [ref=e52]:
+            - checkbox "Jewellery" [ref=e53]
+            - checkbox "Ceramics" [ref=e54]
+            - checkbox "Textiles" [ref=e55]
+            - checkbox "Art & Prints" [ref=e56]
+            - checkbox "Food & Drink" [ref=e57]
+            - checkbox "Candles & Soaps" [ref=e58]
+            - checkbox "Stationery" [ref=e59]
+            - checkbox "Woodwork" [checked] [ref=e60]: ✓Woodwork
+            - checkbox "Leatherwork" [ref=e61]
+            - checkbox "Plants & Flowers" [ref=e62]
+            - checkbox "Clothing" [ref=e63]
+            - checkbox "Toys & Games" [ref=e64]
+            - checkbox "Homeware" [checked] [ref=e65]: ✓Homeware
+            - checkbox "Mixed / Other" [ref=e66]
+        - generic [ref=e67]:
+          - paragraph [ref=e68]: Images
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]: Logo
+              - paragraph [ref=e72]: One logo image, up to 5 MB. JPEG, PNG, WebP, GIF, or AVIF.
+              - button "Logo" [ref=e73]
+            - generic [ref=e74]:
+              - generic [ref=e75]: Images (0/5)
+              - paragraph [ref=e76]: Up to 5 images, each up to 5 MB. JPEG, PNG, WebP, GIF, or AVIF.
+              - button "Images (0/5)" [ref=e77]
+        - generic [ref=e78]:
+          - button "Save changes" [ref=e79]
+          - button "Publish" [ref=e80]
+          - button "Application form" [ref=e81]
+          - button "Back to fairs" [ref=e82]

@@ -1,0 +1,135 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (1 unread)" [ref=e36]:
+          - img [ref=e18]
+          - generic [ref=e37]: "1"
+        - button "Switch role" [ref=e23]:
+          - text: trader
+          - img [ref=e24]
+        - button "Settings" [ref=e27]
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - heading "My Fairs" [level=1] [ref=e30]
+      - paragraph [ref=e31]: Fairs you've saved, applied to, or confirmed.
+      - paragraph [ref=e32]: Only you can see this
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - button "All" [pressed] [ref=e40]
+        - button "Interested" [ref=e41]
+        - button "Applied" [ref=e42]
+        - button "Shortlisted" [ref=e43]
+        - button "Confirmed" [ref=e44]
+        - button "Attended" [ref=e45]
+        - button "Withdrawn" [ref=e46]
+        - button "Cancelled" [ref=e47]
+      - article [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - link "Sweep Application Fair" [ref=e52] [cursor=pointer]:
+              - /url: /fairs/sweep-application-fair
+            - paragraph [ref=e53]: Test Venue, Bath
+            - paragraph [ref=e54]: Tue, 15 Dec 2026
+          - generic [ref=e56]: Shortlisted
+        - generic [ref=e58]:
+          - button "Confirmed" [ref=e177]
+          - button "Withdrawn" [ref=e60]
+          - button "Cancelled" [ref=e61]
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - button "Previous month" [ref=e65]: ←
+          - heading "June 2026" [level=2] [ref=e66]
+          - button "Next month" [ref=e67]: →
+        - generic [ref=e68]:
+          - generic [ref=e69]: Mon
+          - generic [ref=e70]: Tue
+          - generic [ref=e71]: Wed
+          - generic [ref=e72]: Thu
+          - generic [ref=e73]: Fri
+          - generic [ref=e74]: Sat
+          - generic [ref=e75]: Sun
+          - generic [ref=e77]: "1"
+          - generic [ref=e79]: "2"
+          - generic [ref=e81]: "3"
+          - generic [ref=e83]: "4"
+          - generic [ref=e85]: "5"
+          - generic [ref=e87]: "6"
+          - generic [ref=e89]: "7"
+          - generic [ref=e91]: "8"
+          - generic [ref=e93]: "9"
+          - generic [ref=e95]: "10"
+          - generic [ref=e97]: "11"
+          - generic [ref=e99]: "12"
+          - generic [ref=e101]: "13"
+          - generic [ref=e103]: "14"
+          - generic [ref=e105]: "15"
+          - generic [ref=e107]: "16"
+          - generic [ref=e109]: "17"
+          - generic [ref=e111]: "18"
+          - generic [ref=e113]: "19"
+          - generic [ref=e115]: "20"
+          - generic [ref=e117]: "21"
+          - generic [ref=e119]: "22"
+          - generic [ref=e121]: "23"
+          - generic [ref=e123]: "24"
+          - generic [ref=e125]: "25"
+          - generic [ref=e127]: "26"
+          - generic [ref=e129]: "27"
+          - generic [ref=e131]: "28"
+          - generic [ref=e133]: "29"
+          - generic [ref=e135]: "30"
+      - region "Attended" [ref=e141]:
+        - heading "Attended" [level=2] [ref=e142]
+        - list [ref=e143]:
+          - listitem [ref=e144]:
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - paragraph [ref=e147]: Sweep Application Fair
+                - paragraph [ref=e148]: 1 Jun 2026 · Test Venue, Bath
+              - generic [ref=e149]: £150.00
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - paragraph [ref=e153]: Rate this fair
+                - paragraph [ref=e154]: Private to you — never shown to Sweep Application Fair organisers or other traders.
+              - radiogroup "Score for Sweep Application Fair, 1 to 5" [ref=e155]:
+                - radio "1 out of 5" [ref=e156]: "1"
+                - radio "2 out of 5" [ref=e157]: "2"
+                - radio "3 out of 5" [ref=e158]: "3"
+                - radio "4 out of 5" [ref=e159]: "4"
+                - radio "5 out of 5" [ref=e160]: "5"
+              - group "Tags (optional)" [ref=e161]:
+                - generic [ref=e162]: Tags (optional)
+                - generic [ref=e163]:
+                  - button "Good footfall" [ref=e164]
+                  - button "Well organised" [ref=e165]
+                  - button "Worth the cost" [ref=e166]
+                  - button "Friendly crowd" [ref=e167]
+                  - button "Good for sales" [ref=e168]
+                  - button "Easy setup" [ref=e169]
+                  - button "Would return" [ref=e170]
+                  - button "Poor footfall" [ref=e171]
+                  - button "Overpriced" [ref=e172]
+                  - button "Disorganised" [ref=e173]
+              - button "Save rating" [ref=e174]
+            - status [ref=e176]: Feedback submitted — thank you. Your anonymous feedback is with the organiser.
+  - alert [ref=e35]

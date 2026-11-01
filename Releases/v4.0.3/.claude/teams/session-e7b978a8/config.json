@@ -1,0 +1,18 @@
+{
+  "name": "session-e7b978a8",
+  "createdAt": 1791624163792,
+  "leadAgentId": "team-lead@session-e7b978a8",
+  "leadSessionId": "e7b978a8-8973-4931-8d17-11aa6bf657f7",
+  "members": [
+    {
+      "agentId": "team-lead@session-e7b978a8",
+      "name": "team-lead",
+      "agentType": "team-lead",
+      "joinedAt": 1791624163792,
+      "tmuxPaneId": "leader",
+      "cwd": "/home/andy/github/pai-system/Releases/v4.0.3/.claude",
+      "subscriptions": [],
+      "backendType": "in-process"
+    }
+  ]
+}

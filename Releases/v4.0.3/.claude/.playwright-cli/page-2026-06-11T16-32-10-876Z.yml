@@ -1,0 +1,34 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications" [ref=e17]:
+          - img [ref=e18]
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - heading "Account" [level=1] [ref=e24]
+    - paragraph [ref=e25]: Manage your FairFolk account.
+    - region "Delete my account" [ref=e26]:
+      - heading "Delete my account" [level=2] [ref=e27]
+      - paragraph [ref=e28]: Permanently delete your account (trader1@fairfolk.test) and all of your private data — attendance logs, ratings, bookmarks, notifications and settings. This cannot be undone. Some records are retained in an anonymised form where the law requires an audit trail.
+      - button "Delete my account" [ref=e29]
+  - alert [ref=e30]

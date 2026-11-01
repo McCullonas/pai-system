@@ -1,0 +1,37 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "FairFolk home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: FAIRFOLK
+      - link "Sign in" [ref=e5] [cursor=pointer]:
+        - /url: /login
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - img [ref=e11]
+          - heading "Sweep Application Fair" [level=1] [ref=e18]
+          - 'generic "Verified means: this organiser is identity-checked and active on FairFolk. Not a quality rating." [ref=e19]': Verified
+        - button "Save to My Fairs" [ref=e20]:
+          - img [ref=e21]
+      - paragraph [ref=e23]: Tuesday, 15 December 2026
+      - paragraph [ref=e24]: Test Venue, Bath
+    - generic [ref=e25]:
+      - heading "Trader satisfaction" [level=2] [ref=e26]
+      - paragraph [ref=e27]: Not enough ratings yet to show a satisfaction score.
+    - generic [ref=e28]:
+      - heading "Organiser feedback" [level=2] [ref=e29]
+      - paragraph [ref=e30]:
+        - generic [ref=e31]: 4.0 / 5
+        - text: from 3 traders who left feedback.
+    - paragraph [ref=e32]: DoD sweep test fair for F013 application stories
+    - link "Apply to this fair →" [ref=e33] [cursor=pointer]:
+      - /url: /fairs/sweep-application-fair/apply
+    - generic [ref=e34]:
+      - heading "Contact the organiser" [level=2] [ref=e35]
+      - paragraph [ref=e36]:
+        - link "Sign in" [ref=e37] [cursor=pointer]:
+          - /url: /login?next=%2Ffairs%2Fsweep-application-fair
+        - text: to see the organiser's contact details.
+  - alert [ref=e38]

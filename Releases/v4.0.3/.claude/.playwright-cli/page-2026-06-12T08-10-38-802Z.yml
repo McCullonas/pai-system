@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (6 unread)" [ref=e54]:
+          - img [ref=e18]
+          - generic [ref=e55]: "6"
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - img [ref=e28]
+          - heading "Sherwood street market" [level=1] [ref=e35]
+          - generic [ref=e36]: Community submitted
+        - button "Saved to My Fairs" [disabled] [ref=e56]:
+          - img [ref=e38]
+      - paragraph [ref=e40]: Saturday, 13 June 2026
+      - paragraph [ref=e41]: Edwards Ln, Sherwood, Nottingham NG5 3AA
+    - generic [ref=e42]:
+      - heading "Trader satisfaction" [level=2] [ref=e43]
+      - paragraph [ref=e44]: Not enough ratings yet to show a satisfaction score.
+    - generic [ref=e45]:
+      - heading "Organiser feedback" [level=2] [ref=e46]
+      - paragraph [ref=e47]: Not enough feedback yet to show an organiser score.
+    - paragraph [ref=e48]: Monthly craft fair with a wide range of different makers. Runs on the third Saturday of each month from March to December.
+    - group [ref=e49]:
+      - generic "Organiser contact & privacy" [ref=e50] [cursor=pointer]
+    - link "Contact FairFolk about this listing" [ref=e52] [cursor=pointer]:
+      - /url: mailto:listings@fairfolk.co.uk
+  - alert [ref=e53]

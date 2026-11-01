@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications (1 unread)" [ref=e30]:
+          - img [ref=e20]
+          - generic [ref=e31]: "1"
+        - button "Settings" [ref=e24]
+  - main [ref=e25]:
+    - heading "Application form" [level=1] [ref=e26]
+    - paragraph [ref=e27]: Configure what stallholders fill in when they apply to Sweep Application Fair.
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: Version 4
+        - generic [ref=e35]: Locked — applications have started; edits create a new version
+      - region "Standard fields" [ref=e36]:
+        - heading "Standard fields" [level=2] [ref=e37]
+        - paragraph [ref=e38]: These come built in. Switch off any you don't need.
+        - list [ref=e39]:
+          - listitem [ref=e40]:
+            - generic [ref=e41]:
+              - paragraph [ref=e42]: Business name
+              - paragraph [ref=e43]: Short text · required
+            - generic [ref=e44] [cursor=pointer]:
+              - checkbox "Enabled" [checked] [ref=e45]
+              - generic [ref=e46]: Enabled
+          - listitem [ref=e47]:
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: Contact email
+              - paragraph [ref=e50]: Email · required
+            - generic [ref=e51] [cursor=pointer]:
+              - checkbox "Enabled" [checked] [ref=e52]
+              - generic [ref=e53]: Enabled
+          - listitem [ref=e54]:
+            - generic [ref=e55]:
+              - paragraph [ref=e56]: Phone
+              - paragraph [ref=e57]: Short text
+            - generic [ref=e58] [cursor=pointer]:
+              - checkbox "Enabled" [checked] [ref=e59]
+              - generic [ref=e60]: Enabled
+          - listitem [ref=e61]:
+            - generic [ref=e62]:
+              - paragraph [ref=e63]: Website
+              - paragraph [ref=e64]: URL
+            - generic [ref=e65] [cursor=pointer]:
+              - checkbox "Enabled" [checked] [ref=e66]
+              - generic [ref=e67]: Enabled
+          - listitem [ref=e68]:
+            - generic [ref=e69]:
+              - paragraph [ref=e70]: Social links
+              - paragraph [ref=e71]: Short text
+            - generic [ref=e72] [cursor=pointer]:
+              - checkbox "Enabled" [checked] [ref=e73]
+              - generic [ref=e74]: Enabled
+          - listitem [ref=e75]:
+            - generic [ref=e76]:
+              - paragraph [ref=e77]: Pitch / description
+              - paragraph [ref=e78]: Long text
+            - generic [ref=e79] [cursor=pointer]:
+              - checkbox "Enabled" [checked] [ref=e80]
+              - generic [ref=e81]: Enabled
+          - listitem [ref=e82]:
+            - generic [ref=e83]:
+              - paragraph [ref=e84]: Product categories
+              - paragraph [ref=e85]: Multiple choice
+            - generic [ref=e86] [cursor=pointer]:
+              - checkbox "Enabled" [checked] [ref=e87]
+              - generic [ref=e88]: Enabled
+      - region "Custom questions" [ref=e89]:
+        - heading "Custom questions" [level=2] [ref=e90]
+        - list [ref=e91]:
+          - listitem [ref=e92]:
+            - generic [ref=e93]:
+              - paragraph [ref=e94]: What is your stall size?
+              - paragraph [ref=e95]: Short text
+            - generic [ref=e96]:
+              - button "Edit" [ref=e97]
+              - button "Remove" [ref=e98]
+          - listitem [ref=e99]:
+            - generic [ref=e100]:
+              - paragraph [ref=e101]: How many years have you been trading at craft fairs?
+              - paragraph [ref=e102]: Short text
+            - generic [ref=e103]:
+              - button "Edit" [ref=e104]
+              - button "Remove" [ref=e105]
+        - button "Add a question" [ref=e106]
+      - region "Category caps" [ref=e107]:
+        - heading "Category caps" [level=2] [ref=e108]
+        - paragraph [ref=e109]: Limit how many stalls you accept per product category. Leave a category uncapped to accept unlimited applications.
+        - generic [ref=e110]:
+          - list [ref=e111]:
+            - listitem [ref=e112]:
+              - generic [ref=e113]: food · 1 slot
+              - button "Remove cap" [ref=e114]
+            - listitem [ref=e115]:
+              - generic [ref=e116]: Jewellery · 1 slot
+              - button "Remove cap" [ref=e117]
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e120]: Category
+              - combobox "Category" [ref=e121]:
+                - option "Jewellery"
+                - option "Ceramics" [selected]
+                - option "Textiles"
+                - option "Art & Prints"
+                - option "Food & Drink"
+                - option "Candles & Soaps"
+                - option "Stationery"
+                - option "Woodwork"
+                - option "Leatherwork"
+                - option "Plants & Flowers"
+                - option "Clothing"
+                - option "Toys & Games"
+                - option "Homeware"
+                - option "Mixed / Other"
+            - generic [ref=e122]:
+              - generic [ref=e123]: Max slots
+              - spinbutton "Max slots" [ref=e124]
+            - button "Set cap" [ref=e125]
+  - alert [ref=e29]

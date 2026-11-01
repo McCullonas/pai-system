@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__google-workspace-marvin__list_gmail_labels"
+    ]
+  }
+}

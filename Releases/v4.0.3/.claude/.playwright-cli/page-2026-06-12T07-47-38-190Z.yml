@@ -1,0 +1,52 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (6 unread)" [ref=e53]:
+          - img [ref=e18]
+          - generic [ref=e54]: "6"
+        - button "Settings" [ref=e22]
+  - alert [ref=e52]: Burton Constable Craft & Gift Fair | FairFolk
+  - main [ref=e1410]:
+    - generic [ref=e1411]:
+      - generic [ref=e1412]:
+        - generic [ref=e1413]:
+          - img [ref=e1415]
+          - heading "Burton Constable Craft & Gift Fair" [level=1] [ref=e1422]
+          - generic [ref=e1423]: Community submitted
+        - button "Saved to My Fairs" [disabled] [ref=e1424]:
+          - img [ref=e1425]
+      - paragraph [ref=e1427]: Saturday, 12 December 2026
+      - paragraph [ref=e1428]: Skirlaugh, East Yorkshire, England
+    - generic [ref=e1429]:
+      - heading "Trader satisfaction" [level=2] [ref=e1430]
+      - paragraph [ref=e1431]:
+        - generic [ref=e1432]: 4.3 / 5
+        - text: from 3 traders who rated this fair.
+    - generic [ref=e1433]:
+      - heading "Organiser feedback" [level=2] [ref=e1434]
+      - paragraph [ref=e1435]: Not enough feedback yet to show an organiser score.
+    - paragraph [ref=e1436]: Craft and gift fair held at Burton Constable Hall, a historic country house near Hull.
+    - group [ref=e1437]:
+      - generic "Organiser contact & privacy" [ref=e1438] [cursor=pointer]
+    - link "Contact FairFolk about this listing" [ref=e1440] [cursor=pointer]:
+      - /url: mailto:listings@fairfolk.co.uk

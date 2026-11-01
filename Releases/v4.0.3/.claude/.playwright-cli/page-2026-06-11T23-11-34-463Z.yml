@@ -1,0 +1,52 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·organiser
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Dashboard" [ref=e9] [cursor=pointer]:
+            - /url: /organiser
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /organiser/fairs
+          - link "Pipeline" [ref=e11] [cursor=pointer]:
+            - /url: /organiser/pipeline
+          - link "Messages" [ref=e12] [cursor=pointer]:
+            - /url: /organiser/messaging
+          - link "Notes" [ref=e13] [cursor=pointer]:
+            - /url: /organiser/notes
+          - link "Feedback" [ref=e14] [cursor=pointer]:
+            - /url: /organiser/feedback
+          - link "Profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/organiser
+      - generic [ref=e16]:
+        - link "+ New Fair" [ref=e17] [cursor=pointer]:
+          - /url: /organiser/fairs/new
+        - button "Notifications" [ref=e19]:
+          - img [ref=e20]
+        - button "Settings" [ref=e24]
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - img [ref=e30]
+          - heading "Burton Constable Craft & Gift Market" [level=1] [ref=e37]
+          - generic [ref=e38]: Community submitted
+        - button "Save to My Fairs" [ref=e39]:
+          - img [ref=e40]
+      - paragraph [ref=e42]: Thursday, 15 October 2026
+      - paragraph [ref=e43]: Pinstone Street, Sheffield, S1 2HH
+    - generic [ref=e44]:
+      - heading "Trader satisfaction" [level=2] [ref=e45]
+      - paragraph [ref=e46]: Not enough ratings yet to show a satisfaction score.
+    - generic [ref=e47]:
+      - heading "Organiser feedback" [level=2] [ref=e48]
+      - paragraph [ref=e49]: Not enough feedback yet to show an organiser score.
+    - group [ref=e50]:
+      - generic "Organiser contact & privacy" [ref=e51] [cursor=pointer]
+    - link "Contact FairFolk about this listing" [ref=e53] [cursor=pointer]:
+      - /url: mailto:listings@fairfolk.co.uk
+  - alert [ref=e54]

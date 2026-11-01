@@ -1,0 +1,86 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "FairFolk home" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - text: FAIRFOLK
+        - navigation "Primary navigation" [ref=e6]:
+          - link "Discover" [ref=e7] [cursor=pointer]:
+            - /url: /discover
+          - link "My fairs" [ref=e8] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Inbox" [ref=e9] [cursor=pointer]:
+            - /url: /inbox
+          - link "Submit a fair" [ref=e10] [cursor=pointer]:
+            - /url: /community/submit
+          - link "Logging" [ref=e11] [cursor=pointer]:
+            - /url: /attendance-logging
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Season" [ref=e13] [cursor=pointer]:
+            - /url: /performance/season
+      - generic [ref=e14]:
+        - button "Notifications" [ref=e16]:
+          - img [ref=e17]
+        - button "Settings" [ref=e21]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - heading "Submit a fair" [level=1] [ref=e24]
+      - paragraph [ref=e25]: Know of a craft fair that's missing from FairFolk? Add it here.
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: Fair name*
+        - textbox "Fair name*" [ref=e30]:
+          - /placeholder: e.g. Bristol Makers Market
+      - group "When is it?*" [ref=e31]:
+        - generic [ref=e32]: When is it?*
+        - radiogroup "Date mode" [ref=e33]:
+          - radio "Single day" [checked] [ref=e34]
+          - radio "Date range" [ref=e35]
+      - generic [ref=e36]:
+        - generic [ref=e37]: Date*
+        - textbox "Date*" [ref=e38]
+      - generic [ref=e39]:
+        - generic [ref=e40]: Venue name*
+        - textbox "Venue name*" [ref=e41]:
+          - /placeholder: e.g. Tobacco Factory
+      - generic [ref=e42]:
+        - generic [ref=e43]: Full address(must include UK postcode)*
+        - textbox "Full address(must include UK postcode)*" [ref=e44]:
+          - /placeholder: Tobacco Factory, Raleigh Rd, Bristol BS3 1TF
+      - generic [ref=e45]:
+        - generic [ref=e46]: Description(optional, max 2000 chars)
+        - textbox "Description(optional, max 2000 chars)" [ref=e47]:
+          - /placeholder: Tell traders and visitors what makes this fair special.
+      - group "Categories(optional — helps people find your fair)" [ref=e48]:
+        - generic [ref=e49]: Categories(optional — helps people find your fair)
+        - generic [ref=e50]:
+          - checkbox "Jewellery" [ref=e51]
+          - checkbox "Ceramics" [ref=e52]
+          - checkbox "Textiles" [ref=e53]
+          - checkbox "Art & Prints" [ref=e54]
+          - checkbox "Food & Drink" [ref=e55]
+          - checkbox "Candles & Soaps" [ref=e56]
+          - checkbox "Stationery" [ref=e57]
+          - checkbox "Woodwork" [ref=e58]
+          - checkbox "Leatherwork" [ref=e59]
+          - checkbox "Plants & Flowers" [ref=e60]
+          - checkbox "Clothing" [ref=e61]
+          - checkbox "Toys & Games" [ref=e62]
+          - checkbox "Homeware" [ref=e63]
+          - checkbox "Mixed / Other" [ref=e64]
+      - generic [ref=e65]:
+        - generic [ref=e66]: Indoor or outdoor(optional)
+        - combobox "Indoor or outdoor(optional)" [ref=e67]:
+          - option "No preference" [selected]
+          - option "Indoor"
+          - option "Outdoor"
+          - option "Indoor & Outdoor"
+      - generic [ref=e68]:
+        - paragraph [ref=e69]: Social links(optional — Instagram, Facebook, Twitter/X, TikTok)
+        - textbox "Social link 1" [ref=e71]:
+          - /placeholder: https://instagram.com/yourfair
+        - button "Add another link" [ref=e72]
+      - button "Submit fair" [ref=e73]
+      - paragraph [ref=e74]: Submitted fairs are published immediately with a community badge. Submissions are subject to a daily limit.

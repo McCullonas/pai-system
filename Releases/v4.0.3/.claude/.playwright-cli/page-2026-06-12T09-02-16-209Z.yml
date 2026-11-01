@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications (2 unread)" [ref=e35]:
+          - img [ref=e18]
+          - generic [ref=e36]: "2"
+        - button "Switch role" [ref=e23]:
+          - text: trader
+          - img [ref=e24]
+        - button "Settings" [ref=e27]
+  - main [ref=e28]:
+    - heading "Data export" [level=1] [ref=e29]
+    - paragraph [ref=e30]: Download a copy of all data associated with your FairFolk account. Exports are available for 48 hours after generation.
+    - generic [ref=e31]:
+      - paragraph [ref=e40]: Your data export is ready.
+      - paragraph [ref=e41]: "Available until: 14 Jun 2026, 09:00"
+      - generic [ref=e42]:
+        - link "Download export" [ref=e43] [cursor=pointer]:
+          - /url: https://fairfolk-uploads.6405628a175c0633cf1c666eab5aa591.r2.cloudflarestorage.com/exports/058cf1d6-6686-bafe-51e7-e074c3584be3/53220626-e867-4e6a-8146-b02693c20b45.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=7c2659b3617768de1e1d400d953a34d6%2F20260612%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260612T090045Z&X-Amz-Expires=172800&X-Amz-Signature=f07b21d3d7a6747aa4fe9752847aa78a3abcfa06fdd9dbad017d18a61b653b18&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+        - button "Email sent" [disabled]
+  - alert [ref=e34]

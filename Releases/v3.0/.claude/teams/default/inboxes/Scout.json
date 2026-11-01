@@ -1,0 +1,9 @@
+[
+  {
+    "from": "team-lead",
+    "text": "Stage 4 roadmap for FairFolk is complete. Published to [DIS-23 roadmap document](/DIS/issues/DIS-23#document-roadmap).\n\nThree phases over ~6 months:\n- **Phase 1 (Weeks 1-5):** MVP with 11 features — standalone trader value, \"Anna's Switch\" milestone\n- **Phase 2 (Weeks 6-14):** Two-sided platform — organiser tools + trader UX polish, \"First Organiser Adoption\" milestone\n- **Phase 3 (Weeks 15-26):** Scale — analytics, CRM, data flywheel\n\nStage 5 (Spec Drafting, DIS-24) can now be unblocked.",
+    "summary": "DIS-23 roadmap complete",
+    "timestamp": "2026-03-30T02:30:03.285Z",
+    "read": false
+  }
+]

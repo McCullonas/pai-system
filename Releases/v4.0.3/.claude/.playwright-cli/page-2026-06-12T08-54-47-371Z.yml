@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "FairFolk home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - text: FAIRFOLK
+          - generic [ref=e7]: ·trader
+        - navigation "Primary navigation" [ref=e8]:
+          - link "Discover" [ref=e9] [cursor=pointer]:
+            - /url: /discover
+          - link "My Fairs" [ref=e10] [cursor=pointer]:
+            - /url: /my-fairs
+          - link "Applications" [ref=e11] [cursor=pointer]:
+            - /url: /applications
+          - link "Performance" [ref=e12] [cursor=pointer]:
+            - /url: /performance
+          - link "Profile" [ref=e13] [cursor=pointer]:
+            - /url: /profile
+      - generic [ref=e14]:
+        - link "+ Quick Log" [ref=e15] [cursor=pointer]:
+          - /url: /attendance-logging
+        - button "Notifications" [ref=e17]:
+          - img [ref=e18]
+        - button "Settings" [ref=e22]
+  - main [ref=e23]:
+    - heading "Forwarding address" [level=1] [ref=e24]
+    - paragraph [ref=e25]:
+      - text: Forward a booking-confirmation email to your private FairFolk address and we’ll draft a fair from it for you to review. Only emails sent from
+      - strong [ref=e26]: your own verified account
+      - text: are accepted.
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - text: Your forwarding address
+        - generic [ref=e29]:
+          - textbox "Your forwarding address" [ref=e30]: fR57CHqEqN-p7P1WyDbtA48BfAQ@add.fairfolk.co.uk
+          - button "Copy" [ref=e31]
+        - paragraph [ref=e32]: Forward booking emails here from the address on your FairFolk account. Rotating the address invalidates the old one immediately.
+      - button "Rotate address" [ref=e34]
+  - alert [ref=e35]
